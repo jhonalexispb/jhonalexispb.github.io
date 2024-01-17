@@ -5,7 +5,7 @@ function handleSubmit(event){
     let nombreUsuario = event.target.elements["newName"].value;
     if(nombreUsuario!==""){
     username = nombreUsuario;
-    window.location.href = "notas.html?newName=" + encodeURIComponent(username);
+    window.location.href = "/html/notas.html?newName=" + encodeURIComponent(username);
     input.reset();
 }
 }
