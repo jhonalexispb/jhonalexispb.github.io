@@ -38,7 +38,7 @@ function handleSubmit(event){  //event es un objeto del documento que se genera
     render();}
 }
 const h1 = document.querySelector("h1");
-h1.textContent = `Hello ${username}, wilcome to your notes`;
+h1.textContent = `Hello ${username}, welcome to your notes`;
 const form = document.querySelector("form");
 form.addEventListener("submit",handleSubmit);
 
