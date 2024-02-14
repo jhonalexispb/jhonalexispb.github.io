@@ -75,10 +75,19 @@
       font-size: 20px;
       border: 3px solid #000;
     }
+
+    .encuadre {
+      width: 600;
+      height: 800px;
+      max-width: 512px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 
 <body>
+  <div class="encuadre">
   <div class="container">
     <h1 class="body__title">¿Quieres ser mi san valentin?</h1>
     <img src="https://i.pinimg.com/originals/07/67/31/0767312e5e1aa29e44cfce0035ae0bd8.png" alt="Foto D My" class="body__img" />
@@ -89,10 +98,11 @@
     <button id="yes">Tiii</button>
     <button id="no">nel perro</button>
   </div>
-
+  </div>
   <script>
     const vuttonSi = document.getElementById('yes');
     const vuttonNo = document.getElementById('no');
+    /* const encuadre = document */
 
     const zomosNobios = () => {
       alert('💞 Te amo baby :3 💞');
@@ -101,13 +111,11 @@
     };
 
     const ebitarKCRompaMyBobo = () => {
-      vuttonNo.style.position = 'absolute';
-      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
-      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+      alert('¿Qué? como que no, intenta nuevamente >:v');
     };
 
     vuttonSi.addEventListener('click', zomosNobios);
-    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+    vuttonNo.addEventListener('click', ebitarKCRompaMyBobo);
   </script>
 </body>
 
