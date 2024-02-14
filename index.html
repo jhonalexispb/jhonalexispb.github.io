@@ -1,26 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="/css/login.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>te amo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+      background-image: linear-gradient(45deg, #00c2ff, #ff00c7);
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .container {
+        
+      background:transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(50px);
+      box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .containerb{
+        
+        background:transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(50px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+    .body__title {
+      color: #fff;
+      font-family: 'Fredoka', sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .body__img {
+      width: 100%;
+      max-width: 512px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    #yes,
+    #no {
+      cursor: pointer;
+      width: 200px;
+      height: 50px;
+      border-radius: 26px;
+      background: #af00d6;
+      color: #000000;
+      text-align: center;
+      margin-bottom: 15px;
+      font-family: 'Fredoka';
+      font-size: 40px;
+      border: 3px solid #000;
+    }
+  </style>
 </head>
+
 <body>
-    <div id="stars"></div>
-    <div class="divWelcome">
-        <h1 class="Welcome">Hola mucho gusto, gracias por usar esta aplicación de notas</h1>
-    </div>
-    <div class="divName">
-        <form class="forName">
-            <label>Ingresa tu nombre por favor</label>
-            <input autocomplete="off" type="text" id="newName" placeholder="Tu nombre es ...">
-            <div id="divButton"><button class="bName">Ingresar</button>
-            </div>
-        </form>
-    </div>
-    <div id="moon"></div>
-    <!-- <div class="mountain"><img class="gatos" src="img/montañas2.svg" alt="gatos"></div> -->
-    <script src="/js/name.js"></script>
+  <div class="container">
+    <h1 class="body__title">¿Quieres ser mi san valentin?</h1>
+    <img src="https://i.pinimg.com/originals/07/67/31/0767312e5e1aa29e44cfce0035ae0bd8.png" alt="Foto D My" class="body__img" />
+    <br>
+    
+  </div>
+  <div class="containerb">
+    <button id="yes">Tiii</button>
+    <button id="no">nel perro</button>
+  </div>
+
+  <script>
+    const vuttonSi = document.getElementById('yes');
+    const vuttonNo = document.getElementById('no');
+
+    const zomosNobios = () => {
+      alert('💞 Te amo baby :3 💞');
+      alert('Atutu');
+      location.href = 'https://www.youtube.com/watch?v=cjMC-jbn1Fg';
+    };
+
+    const ebitarKCRompaMyBobo = () => {
+      vuttonNo.style.position = 'absolute';
+      vuttonNo.style.top = (Math.random() * window.innerHeight + 'px');
+      vuttonNo.style.left = (Math.random() * window.innerWidth + 'px');
+    };
+
+    vuttonSi.addEventListener('click', zomosNobios);
+    vuttonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
 </body>
+
 </html>
