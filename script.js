@@ -55,18 +55,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 medicamentoContainer.classList.add("medicamento");
 
                 // Estilo para el contenedor de medicamento
-                medicamentoContainer.style.border = "1px solid #ccc";
+                
                 medicamentoContainer.style.position = "relative";
+
 
                 // Contenido del contenedor de medicamento
                 medicamentoContainer.innerHTML = `
                     <div class="producto-info">
                         <div class="producto-nombre" data-linea="${currentLaboratory}">${medicamento.nombre}</div>
                         <div class="producto-descripcion">${medicamento.descripcion}</div>
-                        <div class="producto-categoria">${medicamento.categoria}</div>
-                       
+                        <div class="producto-presentacion">${medicamento.presentacion}</div>
+                        <div>
+                            <img id="escala" src="imagenes/escala.png" style="display: ${medicamento.escala === 'no' ? 'none' : 'block'};" />
+                        </div>
                     </div>
-                    <img id="imagen_producto" src="imagenes/dropesac/productos/KELEXYN.jpg" />
+                    <img id="imagen_producto" src="${medicamento.imagen_producto}" />
                     <img id="logoboned" src="imagenes/logotipo.png" />
                     <div class="precio">${medicamento.precio}</div> <!-- Precio -->
                     <img id="globo_precio" src="imagenes/precio.png" />
@@ -90,6 +93,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         });
+
+        ultimo_mensaje = document.createElement("div");
+        ultimo_mensaje.classList.add("pie_de_pagina");
+        ultimo_mensaje.textContent = '"Trabajamos con alternativas terapéuticas de calidad"';
+        main.appendChild(ultimo_mensaje);
+    
     })
     .catch(error => console.error("Error al cargar los medicamentos", error));
 });

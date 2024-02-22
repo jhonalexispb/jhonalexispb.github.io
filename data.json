@@ -1,60 +1,72 @@
 [
   
     {
+      "precio": "S/78.62",
       "nombre": "KELEXYN",
       "descripcion": "Cefalexina 500mg",
+      "presentacion": "Caja x 100 Cápsulas",
       "imagen": "imagenes/dropesac/dropesac_portada.jpg",
       "imagen_producto":"imagenes/dropesac/productos/KELEXYN.jpg",
       "laboratorio": "DROPESAC",
-      "categoria": "Caja x 100 Cápsulas",
       "linea_medicinal": "1. Línea Antibiótica",
-      "precio": "S/78.62"
+      "escala":"si"
     },
     {
+      "precio": "S/78.62",
+      "nombre": "KEFDYL",
+      "descripcion": "Cefadroxilo 500mg",
+      "presentacion": "Caja x 100 Cápsulas",
+      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/KEFDYL.jpg",
+      "laboratorio": "DROPESAC",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
+    },
+    {
+      "precio": "S/42.08",
       "nombre": "AUGMOX 1000",
-      "descripcion": "Amoxicilina 875mg + Ácido clavulánico 125mg.",
+      "descripcion": "Amoxicilina 875mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
       "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 1000.jpg",
       "laboratorio": "DROPESAC",
-      "categoria": "Caja x 20 Tabletas Recubiertas",
       "linea_medicinal": "1. Línea Antibiótica",
-      "precio": "S/42.08"
+      "escala":"si"
     },
-    
-    
-    
     {
-      "nombre": "Paracetamol",
-      "descripcion": "Medicamento para aliviar el dolor y reducir la fiebre.",
+      "precio": "S/15.45",
+      "nombre": "KELEXYN SUSP.",
+      "descripcion": "CEFALEXINA 250MG/5ML",
+      "presentacion": "Caja x 1 Frasco de 60ml",
       "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/KELEXYN SUSP.jpg",
       "laboratorio": "DROPESAC",
-      "categoria": "Analgésico",
-      "linea_medicinal": "2. Línea Antibiótica",
-      "precio": "S/78.62"
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
     },
-
-  
-
     {
-      "nombre": "Ibuprofeno",
-      "descripcion": "Antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la fiebre.",
-      "imagen": "imagenes/terbol/terbol_portada.jpg",
-      "laboratorio": "Laboratorio B",
-      "categoria": "Antiinflamatorio",
-      "linea_medicinal": "2. Línea Dolor",
-      "precio": "S/78.62"
+      "precio": "S/12.53",
+      "nombre": "AUGMOX 312.5",
+      "descripcion": "Amoxicilina 250mg + Ácido clavulánico 62.5mg",
+      "presentacion": "Caja x 1 Frasco de 60ml",
+      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 312.5.jpg",
+      "laboratorio": "DROPESAC",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
     },
-    
-    
     {
-      "nombre": "Ibuprofeno",
-      "descripcion": "Antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la fiebre.",
-      "imagen": "imagenes/tobal/tobal_portada.jpg",
-      "laboratorio": "Laboratorio c",
-      "categoria": "Antiinflamatorio",
-      "linea_medicinal": "1. Línea Dolor",
-      "precio": "S/78.62"
+      "precio": "S/18.89",
+      "nombre": "AUGMOX 625",
+      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
+      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+      "laboratorio": "DROPESAC",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
     }
     
-    
+     
   ]
   
