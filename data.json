@@ -1,0 +1,59 @@
+[
+  
+    {
+      "nombre": "KELEXYN",
+      "descripcion": "Cefalexina 500mg",
+      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "laboratorio": "DROPESAC",
+      "categoria": "Caja x 100 Cápsulas",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "precio": "S/78.62"
+    },
+    {
+      "nombre": "AUGMOX 1000",
+      "descripcion": "Amoxicilina 875mg + Ácido clavulánico 125mg.",
+      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "laboratorio": "DROPESAC",
+      "categoria": "Caja x 20 Tabletas Recubiertas",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "precio": "S/42.08"
+    },
+    
+    
+    
+    {
+      "nombre": "Paracetamol",
+      "descripcion": "Medicamento para aliviar el dolor y reducir la fiebre.",
+      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "laboratorio": "DROPESAC",
+      "categoria": "Analgésico",
+      "linea_medicinal": "2. Línea Antibiótica",
+      "precio": "S/78.62"
+    },
+
+  
+
+    {
+      "nombre": "Ibuprofeno",
+      "descripcion": "Antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la fiebre.",
+      "imagen": "imagenes/terbol/terbol_portada.jpg",
+      "laboratorio": "Laboratorio B",
+      "categoria": "Antiinflamatorio",
+      "linea_medicinal": "2. Línea Dolor",
+      "precio": "S/78.62"
+    },
+    
+    
+    {
+      "nombre": "Ibuprofeno",
+      "descripcion": "Antiinflamatorio no esteroideo (AINE) utilizado para aliviar el dolor y reducir la fiebre.",
+      "imagen": "imagenes/tobal/tobal_portada.jpg",
+      "laboratorio": "Laboratorio c",
+      "categoria": "Antiinflamatorio",
+      "linea_medicinal": "1. Línea Dolor",
+      "precio": "S/78.62"
+    }
+    
+    
+  ]
+  

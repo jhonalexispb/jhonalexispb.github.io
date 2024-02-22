@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Para evitar la barra de desplazamiento horizontal */
+}
+
+h1 {
+    margin: 0;
+}
+.catalogo {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-gap: 20px;
+    /* padding: 20px; */
+}
+.medicamento {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* width: 47%; *//*ajusta la separacion entre productos*/
+}
+@media (max-width: 600px) {
+    /* Estilos para pantallas con ancho máximo de 600px */
+    .medicamento {
+        width: 208px;
+        height: 145px;
+
+    }
+}
+
+#logoboned{
+    width: 30%;
+    height: auto;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.precio{
+    position: absolute;
+    font-family: "Righteous", sans-serif;
+    color: white;
+    top: 5px;
+    left: 5px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#globo_precio{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    z-index: -1;
+}
+
+
+.producto-info {
+    border: 1px solid #ccc;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    z-index: 1;
+    border-style: dashed; /* o dotted */
+    border-width: 2px; /* Ancho del borde */
+    border-color: #9B9B9B;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.producto-nombre[data-linea="DROPESAC"] {
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    background-image: linear-gradient(45deg, #23A8AA, #FEC316);
+    border-radius: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    display: inline-block;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.producto-descripcion {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    font-size: 9px;
+    text-align: center;
+}
+
+.producto-categoria {
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+
+
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+.laboratory-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    flex-direction: column;
+    /* margin-bottom: 20px; */ /* Espacio entre laboratorios */
+}
+
+.row-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+.image-container {
+    /* Estilos del contenedor de la imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50px; /* Altura mínima de la imagen del laboratorio */
+    height: 15vw;  /* Altura de la imagen del laboratorio */
+}
+
+.cintaLinea {
+    font-family: 'Varela Round', sans-serif;
+    background-color: rgba(255, 96, 96, 1);
+    color: white;
+    padding: 5px 10px; /* Espaciado interno */
+    /* display: inline-block; */ /* Para que ocupe solo el ancho del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio entre líneas */
+}
+
+/* Colores para líneas medicinales */
+.cintaLinea[data-linea="DROPESAC"] {
+    background-color: rgba(255, 96, 96, 1);
+}
+
+.cintaLinea[data-linea="Laboratorio B"] {
+    background-color: orange;
+}
+.cintaLinea[data-linea="Laboratorio c"] {
+    background-color: orange;
+}
+
+
+
