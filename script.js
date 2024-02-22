@@ -64,7 +64,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         <div class="producto-nombre" data-linea="${currentLaboratory}">${medicamento.nombre}</div>
                         <div class="producto-descripcion">${medicamento.descripcion}</div>
                         <div class="producto-categoria">${medicamento.categoria}</div>
+                       
                     </div>
+                    <img id="imagen_producto" src="imagenes/dropesac/productos/KELEXYN.jpg" />
                     <img id="logoboned" src="imagenes/logotipo.png" />
                     <div class="precio">${medicamento.precio}</div> <!-- Precio -->
                     <img id="globo_precio" src="imagenes/precio.png" />

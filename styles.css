@@ -94,7 +94,6 @@ h1 {
 }
 
 .producto-descripcion {
-    margin-bottom: 5px;
     font-weight: bold;
     font-family: 'Varela Round', sans-serif;
     text-transform: uppercase;
@@ -103,6 +102,7 @@ h1 {
 }
 
 .producto-categoria {
+    margin-top: 5px;
     font-family: 'Varela Round', sans-serif;
     font-weight: bold;
     color: white;
@@ -126,7 +126,7 @@ h2{
 .laboratory-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 20px;
+    gap: 10px;
     flex-direction: column;
     /* margin-bottom: 20px; */ /* Espacio entre laboratorios */
 }
@@ -168,6 +168,15 @@ h2{
 }
 .cintaLinea[data-linea="Laboratorio c"] {
     background-color: orange;
+}
+
+#imagen_producto{
+    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
+    width: 60%;
+    height: auto;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
 }
 
 

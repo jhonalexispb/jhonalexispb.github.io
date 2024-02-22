@@ -4,6 +4,7 @@
       "nombre": "KELEXYN",
       "descripcion": "Cefalexina 500mg",
       "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/KELEXYN.jpg",
       "laboratorio": "DROPESAC",
       "categoria": "Caja x 100 Cápsulas",
       "linea_medicinal": "1. Línea Antibiótica",
