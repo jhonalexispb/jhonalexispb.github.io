@@ -63,10 +63,67 @@
       "imagen": "imagenes/dropesac/dropesac_portada.jpg",
       "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
       "laboratorio": "DROPESAC",
+      "linea_medicinal": "2. Línea Antibiótica",
+      "escala":"no"
+    },
+
+    
+    {
+      "precio": "S/18.89",
+      "nombre": "AUGMOX 625",
+      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
+      "imagen": "imagenes/terbol/terbol_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+      "laboratorio": "TERBOL",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
+    },
+    {
+      "precio": "S/18.89",
+      "nombre": "AUGMOX 625",
+      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
+      "imagen": "imagenes/terbol/terbol_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+      "laboratorio": "TERBOL",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
+    },
+    {
+      "precio": "S/18.89",
+      "nombre": "AUGMOX 625",
+      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
+      "imagen": "imagenes/terbol/terbol_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+      "laboratorio": "TERBOL",
+      "linea_medicinal": "2. Línea Antibiótica",
+      "escala":"no"
+    },
+
+
+    {
+      "precio": "S/18.89",
+      "nombre": "AUGMOX 625",
+      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
+      "imagen": "imagenes/tobal/tobal_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+      "laboratorio": "TOBAL",
+      "linea_medicinal": "1. Línea Antibiótica",
+      "escala":"no"
+    },
+    {
+      "precio": "S/18.89",
+      "nombre": "AUGMOX 625",
+      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+      "presentacion": "Caja x 20 Tabletas Recubiertas",
+      "imagen": "imagenes/tobal/tobal_portada.jpg",
+      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+      "laboratorio": "TOBAL",
       "linea_medicinal": "1. Línea Antibiótica",
       "escala":"no"
     }
-    
-     
   ]
   

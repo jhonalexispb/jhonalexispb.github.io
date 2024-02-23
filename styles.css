@@ -4,14 +4,12 @@ body {
     padding: 0;
     overflow-x: hidden; /* Para evitar la barra de desplazamiento horizontal */
 }
-.catalogo {
-    display: grid;
-    grid-gap: 10px;
-}
+
 
 
 /*CONTENDEDOR DEL LABORATORIO*/
 .laboratory-container {
+    width: 100%;
     display: flex;
     flex-wrap: nowrap;
     gap: 10px;
@@ -33,11 +31,11 @@ body {
         font-family: 'Varela Round', sans-serif;
         background-color: rgba(255, 96, 96, 1);
         color: white;
-        padding: 2px 10px; /* Espaciado interno */
+        padding: 1px 10px; /* Espaciado interno */
         /* display: inline-block; */ /* Para que ocupe solo el ancho del contenido */
-        border-radius: 10px; /* Bordes redondeados */
+        border-radius: 5px; /* Bordes redondeados */
         margin-bottom: 10px; /* Espacio entre líneas */
-        font-size: 14px;
+        font-size: 10px;
        
     }
 
@@ -50,40 +48,48 @@ body {
         }
 
             /*ESPACIO DEL MEDICAMENTO*/
-            .medicamento {
+           /*  .medicamento {
                 padding: 10px;
                 margin-left: 5px;
                 margin-right: 5px;
-                background-color: white;
+                background-color: white; */
                 /* width: 47%; *//*ajusta la separacion entre productos*/
-            }
-            @media (max-width: 600px) {
+            
+            @media (max-width: 400px) {
                 /* Estilos para pantallas con ancho máximo de 600px */
                 .medicamento {
+                    padding: 10px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    background-color: white;
                     width: 208px;
-                    height: 145px;
+                    width: 42%;
+                    height: 105px;
                 }
-            }
-
-                /*IMAGEN DEL LOGO DE BONED*/
-                #logoboned{
-                    width: 35%;
-                    height: auto;
-                    position: absolute;
-                    bottom: 10px;
-                    right: 5px;
+                .producto-nombre {
+                    font-weight: bold;
+                    font-family: 'Varela Round', sans-serif;
+                    color: white;
+                    border-radius: 5px;
+                    font-size: 8px;
+                    text-transform: uppercase;
+                    margin-top: 2px;
+                    display: inline-block;
+                    padding: 2px;
+                    padding-left: 5px;
+                    padding-right: 5px;
                 }
-
+                
                 /*PRECIO*/
                 .precio{
                     position: absolute;
                     font-family: "Righteous", sans-serif;
                     color: white;
-                    top: 5px;
+                    top: 3px;
                     left: 5px;
                     padding: 2px 5px;
                     border-radius: 5px;
-                    font-size: 15px;
+                    font-size: 12px;
                     z-index: 1;
                 }
                 #globo_precio{
@@ -104,14 +110,17 @@ body {
                     top: 5px;
                     right: 0;
                     background-color: rgba(255, 255, 255, 0.8);
-                    padding: 5px;
+                    padding-bottom: 2px;
+                    padding-left: 3px;
+                    padding-right: 3px;
                     border-radius: 5px;
                     z-index: 1;
                     border-style: dashed; 
                     border-width: 2px; 
                     border-color: #9B9B9B;
-                    text-align: center;
-                    display: inline-block;
+                    align-items: center;
+                    display:flex;
+                    flex-direction: column;
                 }
 
                 /*EL NOMBRE DEL PRODUCTO ESTA ABAJO DEBIDO A QUE CAMBIA DE COLOR SEGUN AL LABORATORIO*/
@@ -120,9 +129,10 @@ body {
                     font-weight: bold;
                     font-family: 'Varela Round', sans-serif;
                     text-transform: uppercase;
-                    font-size: min(5vw, 8px);
+                    font-size: 6.5px;
                     overflow: hidden; 
                     text-align: center;
+                    padding: 2px;
                     z-index: 3;
 
                 /*  width: 100%;
@@ -134,26 +144,26 @@ body {
                 }
 
                 .producto-presentacion {
-                    margin-top: 5px;
+                    
                     font-family: 'Varela Round', sans-serif;
                     font-weight: bold;
                     color: white;
-                    font-size: 7px;
+                    font-size: 6px;
                     text-transform: uppercase;
                     text-align: center;
                     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
                     border-radius: 5px;
                     display: inline-block;
                     padding: 2px;
-                    padding-left: 5px;
-                    padding-right: 5px; 
+                    padding-left: 3px;
+                    padding-right: 3px; 
                 }
 
 
                 /*IMAGEN DEL PRODUCTO*/
                 #imagen_producto{
                     /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 60%;
+                    width: 58%;
                     height: auto;
                     position: absolute;
                     bottom: 5px;
@@ -168,17 +178,27 @@ body {
                     top: auto;
                     right: 1px;
                 }
-                
-/*PIE DE PAGINA*/
-.pie_de_pagina{
-    padding: 10px;
-    text-align: center;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: bold;
+
+                /*PIE DE PAGINA*/
+                .pie_de_pagina{
+                    padding: 10px;
+                    text-align: center;
+                    font-family: 'Varela Round', sans-serif;
+                    font-weight: bold;
+                    font-size: 10px;
+                }
+            }
+
+/*IMAGEN DEL LOGO DE BONED*/
+#logoboned{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
 }
 
-
-
+                
 
 /* Colores para líneas medicinales */
 .cintaLinea[data-linea="DROPESAC"] {
@@ -194,48 +214,15 @@ body {
 
 
 /*COLOR DEL DIV DEL PRODUCTO*/
-.producto-nombre[data-linea="DROPESAC"] {
-    font-weight: bold;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
-    background-image: linear-gradient(45deg, #FF6060, #CCA235);
-    border-radius: 5px;
-    font-size: 11px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    display: inline-block;
-    padding: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
 
+.producto-nombre[data-linea="DROPESAC"] {
+    background-image: linear-gradient(45deg, #FF6060, #CCA235);
+}
 .producto-nombre[data-linea="TERBOL"] {
-    font-weight: bold;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
     background-image: linear-gradient(45deg, #1CAE15, #1BA7FD);
-    border-radius: 5px;
-    font-size: 11px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    display: inline-block;
-    padding: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .producto-nombre[data-linea="TOBAL"] {
-    font-weight: bold;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
     background-image: linear-gradient(45deg, #23A8AA, #FEC316);
-    border-radius: 5px;
-    font-size: 11px;
-    text-transform: uppercase;
-    margin-bottom: 5px;
-    display: inline-block;
-    padding: 2px;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
