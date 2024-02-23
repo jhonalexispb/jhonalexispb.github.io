@@ -1,16 +1,17 @@
 [
   
-    {
-      "precio": "S/78.62",
-      "nombre": "KELEXYN",
-      "descripcion": "Cefalexina 500mg",
-      "presentacion": "Caja x 100 Cápsulas",
-      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-      "imagen_producto":"imagenes/dropesac/productos/KELEXYN.jpg",
-      "laboratorio": "DROPESAC",
-      "linea_medicinal": "1. Línea Antibiótica",
-      "escala":"si"
-    },
+{
+  "precio": "S/78.62",
+  "nombre": "KELEXYN",
+  "descripcion": "Cefalexina 500mg",
+  "presentacion": "Caja x 100 Cápsulas",
+  "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+  "imagen_producto":"imagenes/dropesac/productos/KELEXYN.jpg",
+  "laboratorio": "DROPESAC",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "tamaño_imagen": "88",
+  "escala":"si"
+},
     {
       "precio": "S/78.62",
       "nombre": "KEFDYL",
@@ -20,41 +21,43 @@
       "imagen_producto":"imagenes/dropesac/productos/KEFDYL.jpg",
       "laboratorio": "DROPESAC",
       "linea_medicinal": "1. Línea Antibiótica",
+      "tamaño_imagen": "100",
       "escala":"no"
     },
-    {
-      "precio": "S/42.08",
-      "nombre": "AUGMOX 1000",
-      "descripcion": "Amoxicilina 875mg + Ácido clavulánico 125mg",
-      "presentacion": "Caja x 20 Tabletas Recubiertas",
-      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 1000.jpg",
-      "laboratorio": "DROPESAC",
-      "linea_medicinal": "1. Línea Antibiótica",
-      "escala":"si"
-    },
-    {
-      "precio": "S/15.45",
-      "nombre": "KELEXYN SUSP.",
-      "descripcion": "CEFALEXINA 250MG/5ML",
-      "presentacion": "Caja x 1 Frasco de 60ml",
-      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-      "imagen_producto":"imagenes/dropesac/productos/KELEXYN SUSP.jpg",
-      "laboratorio": "DROPESAC",
-      "linea_medicinal": "1. Línea Antibiótica",
-      "escala":"no"
-    },
-    {
-      "precio": "S/12.53",
-      "nombre": "AUGMOX 312.5",
-      "descripcion": "Amoxicilina 250mg + Ácido clavulánico 62.5mg",
-      "presentacion": "Caja x 1 Frasco de 60ml",
-      "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 312.5.jpg",
-      "laboratorio": "DROPESAC",
-      "linea_medicinal": "1. Línea Antibiótica",
-      "escala":"no"
-    },
+        {
+          "precio": "S/42.08",
+          "nombre": "AUGMOX 1000",
+          "descripcion": "Amoxicilina 875mg + Ácido clavulánico 125mg",
+          "presentacion": "Caja x 20 Tabletas Recubiertas",
+          "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+          "imagen_producto":"imagenes/dropesac/productos/AUGMOX 1000.jpg",
+          "laboratorio": "DROPESAC",
+          "linea_medicinal": "1. Línea Antibiótica",
+          "escala":"si"
+        },
+        {
+          "precio": "S/15.45",
+          "nombre": "KELEXYN SUSP.",
+          "descripcion": "CEFALEXINA 250MG/5ML",
+          "presentacion": "Caja x 1 Frasco de 60ml",
+          "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+          "imagen_producto":"imagenes/dropesac/productos/KELEXYN SUSP.jpg",
+          "laboratorio": "DROPESAC",
+          "linea_medicinal": "1. Línea Antibiótica",
+          "tamaño_imagen": "60",
+          "escala":"no"
+        },
+        {
+          "precio": "S/12.53",
+          "nombre": "AUGMOX 312.5",
+          "descripcion": "Amoxicilina 250mg + Ácido clavulánico 62.5mg",
+          "presentacion": "Caja x 1 Frasco de 60ml",
+          "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+          "imagen_producto":"imagenes/dropesac/productos/AUGMOX 312.5.jpg",
+          "laboratorio": "DROPESAC",
+          "linea_medicinal": "1. Línea Antibiótica",
+          "escala":"no"
+        },
     {
       "precio": "S/18.89",
       "nombre": "AUGMOX 625",
@@ -63,11 +66,25 @@
       "imagen": "imagenes/dropesac/dropesac_portada.jpg",
       "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
       "laboratorio": "DROPESAC",
-      "linea_medicinal": "2. Línea Antibiótica",
+      "linea_medicinal": "2. Línea Dolor",
       "escala":"no"
     },
 
-    
+
+
+
+
+{
+  "precio": "S/18.89",
+  "nombre": "AUGMOX 625",
+  "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+  "presentacion": "Caja x 20 Tabletas Recubiertas",
+  "imagen": "imagenes/terbol/terbol_portada.jpg",
+  "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+  "laboratorio": "TERBOL",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"no"
+},
     {
       "precio": "S/18.89",
       "nombre": "AUGMOX 625",
@@ -87,22 +104,25 @@
       "imagen": "imagenes/terbol/terbol_portada.jpg",
       "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
       "laboratorio": "TERBOL",
-      "linea_medicinal": "1. Línea Antibiótica",
-      "escala":"no"
-    },
-    {
-      "precio": "S/18.89",
-      "nombre": "AUGMOX 625",
-      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
-      "presentacion": "Caja x 20 Tabletas Recubiertas",
-      "imagen": "imagenes/terbol/terbol_portada.jpg",
-      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
-      "laboratorio": "TERBOL",
-      "linea_medicinal": "2. Línea Antibiótica",
+      "linea_medicinal": "2. Línea Dolor",
       "escala":"no"
     },
 
 
+
+
+
+{
+  "precio": "S/18.89",
+  "nombre": "AUGMOX 625",
+  "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
+  "presentacion": "Caja x 20 Tabletas Recubiertas",
+  "imagen": "imagenes/tobal/tobal_portada.jpg",
+  "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
+  "laboratorio": "TOBAL",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"no"
+},
     {
       "precio": "S/18.89",
       "nombre": "AUGMOX 625",
@@ -111,19 +131,318 @@
       "imagen": "imagenes/tobal/tobal_portada.jpg",
       "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
       "laboratorio": "TOBAL",
-      "linea_medicinal": "1. Línea Antibiótica",
+      "linea_medicinal": "2. Línea Dolor Miorelajate",
       "escala":"no"
     },
-    {
-      "precio": "S/18.89",
-      "nombre": "AUGMOX 625",
-      "descripcion": "Amoxicilina 500mg + Ácido clavulánico 125mg",
-      "presentacion": "Caja x 20 Tabletas Recubiertas",
-      "imagen": "imagenes/tobal/tobal_portada.jpg",
-      "imagen_producto":"imagenes/dropesac/productos/AUGMOX 625.jpg",
-      "laboratorio": "TOBAL",
-      "linea_medicinal": "1. Línea Antibiótica",
-      "escala":"no"
-    }
-  ]
+
+
+
+
+
+{
+  "precio": "S/44.40",
+  "nombre": "ETORICOXIB 90MG",
+  "descripcion": "",
+  "presentacion": "Caja x 60 Tabletas Recubiertas",
+  "imagen": "imagenes/qmpharma/qmpharma_portada.jpg",
+  "imagen_producto":"imagenes/qmpharma/productos/ETORICOXIB 90MG.jpg",
+  "laboratorio": "QMPHARMA",
+  "linea_medicinal": "1. Línea Dolor",
+  "escala":"no"
+},
+
+
+
+{
+  "precio": "S/80.00",
+  "nombre": "ABUBRON-AB",
+  "descripcion": "Amoxicilina 500mg + Ambroxol 30mg",
+  "presentacion": "Caja x 100 Cápsulas",
+  "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+  "imagen_producto":"imagenes/lyafarm/productos/ABUBRON-AB.jpg",
+  "laboratorio": "LYAFARM",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/54.00",
+  "nombre": "ATOR 20",
+  "descripcion": "Atorvastatina 20 mg",
+  "presentacion": "Caja x 30 Tabletas Recubiertas",
+  "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+  "imagen_producto":"imagenes/nordicpharmaceutical/productos/ATOR 20.jpg",
+  "laboratorio": "NORDICPHARMACEUTICAL",
+  "linea_medicinal": "1. Línea Cardiometabólica",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/7.62",
+  "nombre": "EXTENZE GEL",
+  "descripcion": "Diclofenaco Dietil Amonio 1%",
+  "presentacion": "CAJA X 1 TUBO DE 40G",
+  "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/EXTENZE GEL.jpg",
+  "laboratorio": "INDUQUIMICA",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/8.63",
+  "nombre": "DEXAMETASONA 1 MG",
+  "descripcion": "",
+  "presentacion": "CAJA X 100 TABLETAS",
+  "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/DEXAMETASONA 1 MG.jpg",
+  "laboratorio": "INDUQUIMICA_GENERICO",
+  "linea_medicinal": "1. Línea Dolor",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/29.45",
+  "nombre": "NEUROTINA",
+  "descripcion": "Gabapentina 300mg",
+  "presentacion": "Caja x 100 Tabletas Recubiertas",
+  "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "MEDICALSTORE",
+  "linea_medicinal": "1. Línea Neuro",
+  "escala":"si"
+},
+
+{
+  "precio": "S/1.94",
+  "nombre": "DIPHADIC LONG",
+  "descripcion": "Diclofenaco Sódico 75mg IM  ",
+  "presentacion": "Caja x 1 Amp.",
+  "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "DIPHASAC",
+  "linea_medicinal": "1. Línea Dolor Y Miorelajante",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/74.81",
+  "nombre": "KETOROLACO 60MG/2MLIV/IM",
+  "descripcion": "",
+  "presentacion": "Caja x 100 Amp",
+  "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "DIPHASAC_GENERICO",
+  "linea_medicinal": "1. Línea Dolor",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/35.78",
+  "nombre": "DIRIS PLUS",
+  "descripcion": "Luteina-Vitamina C-Vitamina E-Zinc-Cobre",
+  "presentacion": "Caja x 30 Cápsulas Blandas",
+  "imagen": "imagenes/ajrlabs/ajrlabs_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "AJRLABS",
+  "linea_medicinal": "1. Línea Vitaminas",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/41.42",
+  "nombre": "KILACINOX",
+  "descripcion": "Clindamicina 300mg",
+  "presentacion": "Caja x 30 Cápsulas",
+  "imagen": "imagenes/labofar/labofar_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "LABOFAR",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/10.62",
+  "nombre": "LOSARTÁN 50 mg",
+  "descripcion": "",
+  "presentacion": "CAJA X 100 TABLETAS RECUBIERTAS",
+  "imagen": "imagenes/labogen/labogen_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "LABOGEN",
+  "linea_medicinal": "1. Línea Cardio",
+  "escala":"si"
+},
+
+{
+  "precio": "S/139.65",
+  "nombre": "likferr",
+  "descripcion": "Hierro Sacarosa 100mg/5mL",
+  "presentacion": "Caja x 5 Ampollas SI",
+  "imagen": "imagenes/emcure/emcure_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "EMCURE",
+  "linea_medicinal": "1. Línea Hematológica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/12.44",
+  "nombre": "AMOXYSEVEN",
+  "descripcion": "Amoxicilina 500mg+Acido Clavulanico 125mg",
+  "presentacion": "Caja x 10 tabletas",
+  "imagen": "imagenes/sevenpharma/sevenpharma_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "SEVENPHARMA",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/75.00",
+  "nombre": "HEPAXHYN-B",
+  "descripcion": "Silimarina 150mg + Complejo B ",
+  "presentacion": "Caja x 10 tabletas",
+  "imagen": "imagenes/medikar/medikar_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "MEDIKAR",
+  "linea_medicinal": "1. Línea Hepatoprotector",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/28.36",
+  "nombre": "DOSTEIN SUSP.",
+  "descripcion": "Erdosteina 175/5mL",
+  "presentacion": "Caja x 1 Frasco de 90mL PPSO",
+  "imagen": "imagenes/carnot/carnot_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "CARNOT",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/8.75",
+  "nombre": "CYCLOFEMINA",
+  "descripcion": "Acetato de Medroxiprogesterona 25mG + Cipionato de Estradiol 5mg / 0,5 mL",
+  "presentacion": "Caja x 1 Ampolla IM",
+  "imagen": "imagenes/gedeon/gedeon_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "GEDEON",
+  "linea_medicinal": "1. Línea Ginecológica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/29.48",
+  "nombre": "ETORICOXIB 90mg",
+  "descripcion": "",
+  "presentacion": "Caja x 20 Tabletas Recubiertas",
+  "imagen": "imagenes/eurofarma/eurofarma_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "EUROFARMA",
+  "linea_medicinal": "1. Línea Dolor",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/5.29",
+  "nombre": "PRUDENCE VETE A LA VERSH",
+  "descripcion": "Sabor y color chicle",
+  "presentacion": "Caja x 5 Preservativos",
+  "imagen": "imagenes/dkt/dkt_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "DKT",
+  "linea_medicinal": "1. Línea Preservativos",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/5.72",
+  "nombre": "FLEXI COLD 20g",
+  "descripcion": "SALICILATO DE METILO 29G + MENTOL 7.6G",
+  "presentacion": "Frasco x 20g",
+  "imagen": "imagenes/perufar/perufar_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "PERUFAR",
+  "linea_medicinal": "1. Línea Muscular",
+  "escala":"si"
+},
+
+
+
+{
+  "precio": "S/7.50",
+  "nombre": "AMOXICILINA 250mg + ÁCIDO CALVULÁNICO 62.5mg",
+  "descripcion": "",
+  "presentacion": "Caja x 1 Frasco x 60 mL",
+  "imagen": "imagenes/jps/jps_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "JPS",
+  "linea_medicinal": "1. Línea Antibiótica",
+  "escala":"si"
+},
+
+
+{
+  "precio": "S/27.78",
+  "nombre": "KETANEN 30",
+  "descripcion": "Ketorolaco  30mg IV/IM",
+  "presentacion": "Caja x 25 Amp.",
+  "imagen": "imagenes/otarvasq/otarvasq_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "OTARVASQ",
+  "linea_medicinal": "1. Línea Dolor",
+  "escala":"si"
+},
+
+{
+  "precio": "S/18.75",
+  "nombre": "AMPICILINA 1G",
+  "descripcion": "IM / IV / Perfusión IV",
+  "presentacion": "Caja x 10 Viales",
+  "imagen": "imagenes/dany/dany_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "DANY",
+  "linea_medicinal": "1. Línea Antibiotica",
+  "escala":"si"
+},
+
+
+
+
+{
+  "precio": "S/29.94",
+  "nombre": "PROFEKET 100MG/5ML",
+  "descripcion": "Ketoprofeno100mg/5mL IV",
+  "presentacion": "Caja x 5 Amp.",
+  "imagen": "imagenes/caferma/caferma_portada.jpg",
+  "imagen_producto":"imagenes/induquimica/productos/NEUROTINA.jpg",
+  "laboratorio": "CAFERMA",
+  "linea_medicinal": "1. Línea Dolor",
+  "escala":"si"
+}
+]
   

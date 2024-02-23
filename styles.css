@@ -50,7 +50,9 @@ body {
                     font-family: 'Varela Round', sans-serif;
                     background-color: rgba(255, 96, 96, 1);
                     color: white;
-                    padding: 1px 10px; /* Espaciado interno */
+                    padding-top: 3px;
+                    padding-bottom: 2px;
+                    padding-left: 10px; /* Espaciado interno */
                     /* display: inline-block; */ /* Para que ocupe solo el ancho del contenido */
                     border-radius: 5px; /* Bordes redondeados */
                     margin-bottom: 10px; /* Espacio entre líneas */
@@ -163,11 +165,10 @@ body {
                 /*IMAGEN DEL PRODUCTO*/
                 #imagen_producto{
                     /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 58%;
+                    width: 100%;
                     height: auto;
-                    position: absolute;
-                    bottom: 2px;
-                    left: 5px;
+                    display: block;
+
                 }
 
                 /*ESCALA*/
@@ -309,7 +310,7 @@ body {
                 /*IMAGEN DEL PRODUCTO*/
                 #imagen_producto{
                     /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 56%;
+    
                     height: auto;
                     position: absolute;
                     bottom: 1px;
@@ -455,7 +456,7 @@ body {
                 /*IMAGEN DEL PRODUCTO*/
                 #imagen_producto{
                     /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 56%;
+
                     height: auto;
                     position: absolute;
                     top: 85px;
@@ -489,7 +490,34 @@ body {
     right: 5px;
 }
 
-                
+#contenerdor_imagen_principal{
+    border: 1px solid #ccc;
+    width: 68%;
+    height: 71%;
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    border-radius: 5px;
+    z-index: 0; 
+    border-width: 2px; 
+    border-color: #9B9B9B;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#contenedor_imagen{
+    /* border: 1px solid #ccc; */
+    height: auto;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 0; 
+    /* border-width: 2px; 
+    border-color: #9B9B9B; */
+
+}                
 
 /* Colores para líneas medicinales */
 .cintaLinea[data-linea="DROPESAC"] {
@@ -502,7 +530,75 @@ body {
 .cintaLinea[data-linea="TOBAL"] {
     background-color: #27A3A5;
 }
-
+.cintaLinea[data-linea="QMPHARMA"] {
+    background-color: #01B7AD;
+}
+.cintaLinea[data-linea="LYAFARM"] {
+    background-color: #DF5077;
+}
+.cintaLinea[data-linea="NORDICPHARMACEUTICAL"] {
+    background-color: #DF5077;
+}
+.cintaLinea[data-linea="INDUQUIMICA"] {
+    background-color: #DB70D6;
+}
+.cintaLinea[data-linea="INDUQUIMICA_GENERICO"] {
+    background-color: #DB70D6;
+}
+.cintaLinea[data-linea="MEDICALSTORE"] {
+    background-color: #0167AB;
+}
+.cintaLinea[data-linea="DIPHASAC"] {
+    background-color: #6565EB;
+}
+.cintaLinea[data-linea="DIPHASAC_GENERICO"] {
+    background-color: #6565EB;
+}
+.cintaLinea[data-linea="AJRLABS"] {
+    background-color: #2164C8;
+}
+.cintaLinea[data-linea="LABOFAR"] {
+    background-color: #5A5AE5;
+}
+.cintaLinea[data-linea="LABOGEN"] {
+    background-color: #04933D;
+}
+.cintaLinea[data-linea="EMCURE"] {
+    background-color: #1E64FF;
+}
+.cintaLinea[data-linea="SEVENPHARMA"] {
+    background-color: #4B3CC7;
+}
+.cintaLinea[data-linea="MEDIKAR"] {
+    background-color: #3E3EBF;
+}
+.cintaLinea[data-linea="CARNOT"] {
+    background-color: #3D5DD3;
+}
+.cintaLinea[data-linea="GEDEON"] {
+    background-color: #1F5BAF;
+}
+.cintaLinea[data-linea="EUROFARMA"] {
+    background-color: #1A74CC;
+}
+.cintaLinea[data-linea="DKT"] {
+    background-color: #E10003;
+}
+.cintaLinea[data-linea="PERUFAR"] {
+    background-color: #0C5FFF;
+}
+.cintaLinea[data-linea="JPS"] {
+    background-color: #4D9642;
+}
+.cintaLinea[data-linea="OTARVASQ"] {
+    background-color: #1846AC;
+}
+.cintaLinea[data-linea="DANY"] {
+    background-color: #1E70A7;
+}
+.cintaLinea[data-linea="CAFERMA"] {
+    background-color: #0E5BC0;
+}
 
 /*COLOR DEL DIV DEL PRODUCTO*/
 
@@ -515,5 +611,74 @@ body {
 
 .producto-nombre[data-linea="TOBAL"] {
     background-image: linear-gradient(45deg, #23A8AA, #FEC316);
+}
+.producto-nombre[data-linea="QMPHARMA"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="LYAFARM"] {
+    background-image: linear-gradient(45deg, #397028, #B4D01D);
+}
+.producto-nombre[data-linea="NORDICPHARMACEUTICAL"] {
+    background-image: linear-gradient(45deg, #676766, #A6A6A4);
+}
+.producto-nombre[data-linea="INDUQUIMICA"] {
+    background-image: linear-gradient(45deg, #CF43C9, #03C1A3);
+}
+.producto-nombre[data-linea="INDUQUIMICA_GENERICO"] {
+    background-image: linear-gradient(45deg, #CF43C9, #03C1A3);
+}
+.producto-nombre[data-linea="MEDICALSTORE"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="DIPHASAC"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="DIPHASAC_GENERICO"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="AJRLABS"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="LABOFAR"] {
+    background-image: linear-gradient(45deg, #4758F4, #FFA208);
+}
+.producto-nombre[data-linea="LABOGEN"] {
+    background-image: linear-gradient(45deg, #03B138, #D3D800);
+}
+.producto-nombre[data-linea="EMCURE"] {
+    background-image: linear-gradient(45deg, #024CFD, #3AC2F5);
+}
+.producto-nombre[data-linea="SEVENPHARMA"] {
+    background-image: linear-gradient(45deg, #655AC3, #F09817);
+}
+.producto-nombre[data-linea="MEDIKAR"] {
+    background-image: linear-gradient(45deg, #0038FC, #9AD31F);
+}
+.producto-nombre[data-linea="CARNOT"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="GEDEON"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="EUROFARMA"] {
+    background-image: linear-gradient(45deg, #2669AB, #E0D726);
+}
+.producto-nombre[data-linea="DKT"] {
+    background-image: linear-gradient(45deg, #FF0003, #E37B7D);
+}
+.producto-nombre[data-linea="PERUFAR"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="JPS"] {
+    background-image: linear-gradient(45deg, #4BB03C, #03C1A3);
+}
+.producto-nombre[data-linea="OTARVASQ"] {
+    background-image: linear-gradient(45deg, #2254C0, #02BBD3);
+}
+.producto-nombre[data-linea="DANY"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+.producto-nombre[data-linea="CAFERMA"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
 

@@ -69,7 +69,11 @@ document.addEventListener("DOMContentLoaded", function() {
                             <img id="escala" src="imagenes/escala.png" style="display: ${medicamento.escala === 'no' ? 'none' : 'block'};" />
                         </div>
                     </div>
+                    <div id="contenerdor_imagen_principal">
+                    <div id="contenedor_imagen" style="width: ${medicamento.tamaño_imagen}%;">
                     <img id="imagen_producto" src="${medicamento.imagen_producto}" />
+                    </div>
+                    </div>
                     <img id="logoboned" src="imagenes/logotipo.png" />
                     <div class="precio">${medicamento.precio}</div> <!-- Precio -->
                     <img id="globo_precio" src="imagenes/precio.png" />
