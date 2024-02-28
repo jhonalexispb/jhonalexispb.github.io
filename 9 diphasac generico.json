@@ -1,0 +1,147 @@
+[
+    {
+        "precio": "S/74.81",
+        "nombre": "KETOROLACO 60MG/2MLIV/IM",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Ampollas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/KETOROLACO 60MG 2ML IV IM.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "1. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/15.00",
+        "nombre": "DICLOFENACO 75mg/3ml im",
+        "descripcion": "",
+        "presentacion": "Caja x 50 Ampollas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/DICLOFENACO 75mg 3ml im.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "1. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/25.00",
+        "nombre": "DEXAMETASONA 4MG/2ML IM/IV/IA",
+        "descripcion": "",
+        "presentacion": "Caja x 50 Ampollas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/DEXAMETASONA 4MG 2ML IM IV IA.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "1. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/42.80",
+        "nombre": "METAMIZOL SODICO 1G/2MLIV/IM",
+        "descripcion": "",
+        "presentacion": "Caja x 50 Ampollas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/METAMIZOL SODICO 1G 2ML IV IM.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "1. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/26.80",
+        "nombre": "ORFENADRINA CITRATO 100mg",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas de Liberación Prolongada",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/ORFENADRINA CITRATO 100mg.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "2. Línea Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/9.31",
+        "nombre": "OMEPRAZOL 20mg",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Cápsulas LR",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/OMEPRAZOL 20mg.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "3. Línea Gastro",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/11.01",
+        "nombre": "ESOMEPRAZOL 20mg",
+        "descripcion": "",
+        "presentacion": "Caja x 30 Cápsulas LR",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/ESOMEPRAZOL 20mg.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "3. Línea Gastro",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/5.40",
+        "nombre": "CLORFENAMINA 10mg IV/IM",
+        "descripcion": "",
+        "presentacion": "Caja x 10 Ampollas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/CLORFENAMINA 10mg IV IM.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "4. Línea Antiestamínica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/33.40",
+        "nombre": "FENITOINA SÓDICA 100MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/FENITOINA SÓDICA 100MG.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "5. Línea Antiepiléctica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/12.50",
+        "nombre": "DIMENHIDRINATO 50MG/5ML",
+        "descripcion": "",
+        "presentacion": "Caja x 10 Ampollas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_genericos/DIMENHIDRINATO 50MG 5ML.jpg",
+        "laboratorio": "DIPHASAC_GENERICO",
+        "linea_medicinal": "6. Línea Antiemética",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    }
+]

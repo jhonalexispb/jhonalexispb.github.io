@@ -1,0 +1,194 @@
+[
+    {
+        "precio": "S/1.94",
+        "nombre": "DIPHADIC LONG",
+        "descripcion": "Diclofenaco Sódico 75mg IM",
+        "presentacion": "Caja x 1 Amp.",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DIPHADIC LONG.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "1. Línea Dolor Y Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+      {
+        "precio": "S/17.20",
+        "nombre": "DIPHACORTEN 5MG",
+        "descripcion": "Prednisolona 5mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 120mL",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DIPHACORTEN 5MG.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "1. Línea Dolor Y Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/4.36",
+        "nombre": "A-FIEBRIN",
+        "descripcion": "Metamizol Sódico 1g/2mL IM/IV",
+        "presentacion": "Caja x 1 Amp.",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/A-FIEBRIN.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "1. Línea Dolor Y Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/3.98",
+        "nombre": "D-CORT 4",
+        "descripcion": "Dexametasona Fosfato 4mg/mL IM/IV/IA",
+        "presentacion": "Caja x 1 Ampolla",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/D-CORT 4.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "1. Línea Dolor Y Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/11.25",
+        "nombre": "DIPHARELAX PLUS",
+        "descripcion": "Paracetamol 450mg + Orfenadrina 35mg",
+        "presentacion": "Caja x 10 Tabletas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DIPHARELAX PLUS.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "1. Línea Dolor Y Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+
+
+
+
+      
+      {
+        "precio": "S/68.25",
+        "nombre": "BROLAXIL 5",
+        "descripcion": "Picosulfato 5mg",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/BROLAXIL 5.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "2. Línea Antiparasitaria y Laxante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/54.50",
+        "nombre": "NATUVARIX",
+        "descripcion": "Ruscus Aculeatus 100mg",
+        "presentacion": "Caja x 60 Cápsulas Blandas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/NATUVARIX.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "3. Línea Anti Varicosa y Antihemorroidal",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/16.39",
+        "nombre": "DIPHAXAMICO",
+        "descripcion": "Acido Tranexamico 1g/10mL IV",
+        "presentacion": "Caja x 1 Ampolla",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DIPHAXAMICO.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "4. Línea Hematológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+      
+
+
+      {
+        "precio": "S/14.83",
+        "nombre": "DIPHA-ZINC-KID",
+        "descripcion": "Sulfato de Zinc 20mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 120mL",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DIPHA-ZINC-KID.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "5. Línea Vitaminas",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/12.80",
+        "nombre": "DUOCLAMOX",
+        "descripcion": "Amoxicilina 500mg + Acido Clavulanico 125mg",
+        "presentacion": "Caja x 10 Tabletas Recubiertas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DUOCLAMOX.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "6. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+
+
+
+
+      {
+        "precio": "S/41.89",
+        "nombre": "DYOMIN H",
+        "descripcion": "Diosmina 450mg + Esperidina 40mg",
+        "presentacion": "Caja x 30 Tabletas Recubiertas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/DYOMIN H.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "7. Línea Urológica",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/57.60",
+        "nombre": "PROSTAMICIL",
+        "descripcion": "Saw Palmetto 320mg",
+        "presentacion": "Caja x 30 Cápsulas Blandas",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/PROSTAMICIL.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "7. Línea Urológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/10.21",
+        "nombre": "NADO",
+        "descripcion": "Hisopo",
+        "presentacion": "Contenido 500 Unidades",
+        "imagen": "imagenes/diphasac/diphasac_portada.jpg",
+        "imagen_producto":"imagenes/diphasac/productos/diphasac_comercial/NADO.jpg",
+        "laboratorio": "DIPHASAC",
+        "linea_medicinal": "8. Línea Hisopos",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      }
+]

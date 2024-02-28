@@ -1,0 +1,93 @@
+[
+    {
+        "precio": "S/75.00",
+        "nombre": "HEPAXHYN-B",
+        "descripcion": "Silimarina 150mg + Complejo B",
+        "presentacion": "Caja x 100 Cápsulas",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/hepaxhyn b.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "1. Línea Hepatoprotector",
+        "tamaño_imagen": "15%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/70.00",
+        "nombre": "DICLOXHYPEN",
+        "descripcion": "Dicloxacilina 500mg",
+        "presentacion": "Caja x 100 Cápsulas",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/dicloxhypen.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "2. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/6.80",
+        "nombre": "CEFTROX-E",
+        "descripcion": "Ceftriaxona 1g",
+        "presentacion": "Caja x 1 Amp + Lidocaina de 3.5mL",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/ceftrox e.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "2. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/26.00",
+        "nombre": "MAGNADOL",
+        "descripcion": "Paracetamol 1gr",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/magnadol.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "3. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      }, 
+      {
+        "precio": "S/33.75",
+        "nombre": "HYNOFLEX",
+        "descripcion": "Meloxicam 15mg",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/hynoflex.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "3. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      }, 
+      {
+        "precio": "S/30.00",
+        "nombre": "DEXAMAX-E",
+        "descripcion": "Dexametasona 4mg",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/dexamax e.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "3. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      }, 
+      {
+        "precio": "S/75.00",
+        "nombre": "INFLUEX-FORTE",
+        "descripcion": " Paracetamol 325mg + Clorhidrato de Fenilefrina 5mg + Bromhidrato de Dextrometorfano 10mg",
+        "presentacion": "Caja x 120 Cápsulas",
+        "imagen": "imagenes/medikar/medikar_portada.jpg",
+        "imagen_producto":"imagenes/medikar/productos/influex forte.jpg",
+        "laboratorio": "MEDIKAR",
+        "linea_medicinal": "4. Línea Antigripal",
+        "tamaño_imagen": "8%",
+        "escala":"no",
+        "existe":"si"
+      }
+    ]

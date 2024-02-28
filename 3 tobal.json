@@ -1,0 +1,233 @@
+[
+    {
+        "precio": "S/15.50",
+        "nombre": "LIZELBAMOX",
+        "descripcion": "Amoxicilina 250mg/5mL+Ácido clavulanico 62.5mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 60mL PPSO",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/LIZELBAMOX.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "1. Línea Antibiotica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/16.60",
+        "nombre": "DOLAMINE",
+        "descripcion": "Paracetamol 500mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/DOLAMINE.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/90.00",
+        "nombre": "DOLAMINE EXTRA FORTE",
+        "descripcion": "Paracetamol 500mg + Ibuprofeno 150mg",
+        "presentacion": "Caja x 200 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/DOLAMINE EXTRA FORTE.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "10%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/165.00",
+        "nombre": "DOLIBREX FORTE",
+        "descripcion": "Celecoxib 400mg",
+        "presentacion": "Caja x 100 Cápsulas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/DOLIBREX FORTE.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "10%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/50.00",
+        "nombre": "DOLIBREX",
+        "descripcion": "Celecoxib 200mg",
+        "presentacion": "Caja x 100 Cápsulas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/DOLIBREX.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/54.00",
+        "nombre": "ZERCOXA 120",
+        "descripcion": "Etoricoxib 120mg",
+        "presentacion": "Caja x 30 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/ZERCOXA 120.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/4.50",
+        "nombre": "NERICORT AMPOLLA",
+        "descripcion": "Dexametasona 4mg/2mL",
+        "presentacion": "Caja x 1 AMPOLLA",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/NERICORT AMPOLLA.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "10%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/4.00",
+        "nombre": "DICLOFAST",
+        "descripcion": "Diclofenaco Sódico 75mg/3mLIM",
+        "presentacion": "Caja x 1 AmpOLLA",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/DICLOFAST.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "1%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/76.90",
+        "nombre": "FIXODOL PLUS",
+        "descripcion": "Paracetamol 300mg + Clorzoxazona 250mg",
+        "presentacion": "Caja x 100 COMPRIMIDOS RECUBIERTOS",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/FIXODOL PLUS.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "2. Línea Dolor Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+
+      {
+        "precio": "S/79.00",
+        "nombre": "LIVERFAST",
+        "descripcion": "Desloratadina 5mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/LIVERFAST.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "3. Línea Antiestamínica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      
+      
+
+      {
+        "precio": "S/22.00",
+        "nombre": "VIKXI 35",
+        "descripcion": "Etinilistradiol 0.035mg + Acetato de Ciproterona 2mg",
+        "presentacion": "Caja x 21 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/VIKXI 35.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "4. Línea Urológica y Ginecológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/15.50",
+        "nombre": "XEROXZANIDA SUSP.",
+        "descripcion": "Nitazoxanida 100mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 60mL",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/XEROXZANIDA SUSP.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "5. Línea Antiparasitario",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+
+      {
+        "precio": "S/14.50",
+        "nombre": "AB FLEXIL",
+        "descripcion": "Ambrosol Clorhidrato 7.5mg/5mL + Clenbuterol clohidrato 0.005mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 120mL",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/AB FLEXIL.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "6. Línea Broncodilatadora y Espectorante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+
+
+      {
+        "precio": "S/39.00",
+        "nombre": "NIVASTOR 20",
+        "descripcion": "Atorvastatina 20mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/NIVASTOR 20.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "7. Línea Metabólica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+
+      {
+        "precio": "S/34.00",
+        "nombre": "ZECARDIX PLUS 40",
+        "descripcion": "Telmisartán 40mg + Hidroclorotiazida 12.5mg",
+        "presentacion": "Caja x 30 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/ZECARDIX PLUS 40.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "8. Línea Cardiológica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/39.60",
+        "nombre": "ZECARDIX PLUS 80",
+        "descripcion": "Telmisartán 80mg + Hidroclorotiazida 12.5mg",
+        "presentacion": "Caja x 30 Tabletas Recubiertas",
+        "imagen": "imagenes/tobal/tobal_portada.jpg",
+        "imagen_producto":"imagenes/tobal/productos/ZECARDIX PLUS 80.jpg",
+        "laboratorio": "TOBAL",
+        "linea_medicinal": "8. Línea Cardiológica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      }
+]

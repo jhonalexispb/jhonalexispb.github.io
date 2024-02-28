@@ -1,5 +1,18 @@
+
+const laboratorios = ["1 dropesac.json","2 terbol.json","3 tobal.json",
+"4 qmpharma.json","5 lyafarm.json","6 nordic.json","7 induquimica.json",
+"7 induquimica generico.json","8 medical store.json","9 diphasac.json",
+"9 diphasac generico.json","10 ajrlabs.json","11 labofar.json","12 labogen.json",
+"13 emcure.json","14 sevenpharma.json","15 medikar.json","16 carnot.json","17 gedeon.json",
+"18 eurofarma.json","19 dkt.json","20 perufar.json","21 jps.json","22 otarvasq.json",
+"23 dany.json","24 caferma.json"];
+
+
+/* const laboratorios = ["24 caferma.json"]; */
+
+for (let i = 0; i < laboratorios.length; i++){
 document.addEventListener("DOMContentLoaded", function() {
-    fetch("data.json")
+    fetch(laboratorios[i])
     .then(response => response.json())
     .then(data => {
         const main = document.getElementById("medicamentos");
@@ -69,8 +82,8 @@ document.addEventListener("DOMContentLoaded", function() {
                             <img id="escala" src="imagenes/escala.png" style="display: ${medicamento.escala === 'no' ? 'none' : 'block'};" />
                         </div>
                     </div>
-                    <div id="contenerdor_imagen_principal">
-                    <div id="contenedor_imagen" style="width: ${medicamento.tamaño_imagen}%;">
+                    <div id="contenerdor_imagen_principal" style="left: ${medicamento.tamaño_imagen}">
+                    <div id="contenedor_imagen">
                     <img id="imagen_producto" src="${medicamento.imagen_producto}" />
                     </div>
                     </div>
@@ -97,15 +110,17 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         });
-
-        ultimo_mensaje = document.createElement("div");
-        ultimo_mensaje.classList.add("pie_de_pagina");
-        ultimo_mensaje.textContent = '"Trabajamos con alternativas terapéuticas de calidad"';
-        main.appendChild(ultimo_mensaje);
     
     })
     .catch(error => console.error("Error al cargar los medicamentos", error));
-});
+})};
+
+
+    /* ultimo_mensaje = document.createElement("div");
+        ultimo_mensaje.classList.add("pie_de_pagina");
+        ultimo_mensaje.textContent = '"Trabajamos con alternativas terapéuticas de calidad"';
+        main.appendChild(ultimo_mensaje); */
+
 
 
 

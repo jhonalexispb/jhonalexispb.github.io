@@ -1,0 +1,67 @@
+[
+    {
+        "precio": "S/10.62",
+        "nombre": "LOSARTÁN 50MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/labogen/labogen_portada.jpg",
+        "imagen_producto":"imagenes/labogen/productos/losartan 50.jpg",
+        "laboratorio": "LABOGEN",
+        "linea_medicinal": "1. Línea Cardio",
+        "tamaño_imagen": "10%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/42.52",
+        "nombre": "IRBESARTÁN 300MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/labogen/labogen_portada.jpg",
+        "imagen_producto":"imagenes/labogen/productos/irbesartan 300.jpg",
+        "laboratorio": "LABOGEN",
+        "linea_medicinal": "1. Línea Cardio",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/38.12",
+        "nombre": "LEVOFLOXACINO 500MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/labogen/labogen_portada.jpg",
+        "imagen_producto":"imagenes/labogen/productos/levofloxacino 500.jpg",
+        "laboratorio": "LABOGEN",
+        "linea_medicinal": "2. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/13.75",
+        "nombre": "DESLORATADINA 5MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/labogen/labogen_portada.jpg",
+        "imagen_producto":"imagenes/labogen/productos/desloratadina 5.jpg",
+        "laboratorio": "LABOGEN",
+        "linea_medicinal": "3. Línea Antihistamínico",
+        "tamaño_imagen": "10%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/36.25",
+        "nombre": "HIOSCINA BUTIL BROMURO 10MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/labogen/labogen_portada.jpg",
+        "imagen_producto":"imagenes/labogen/productos/hioscina butil bromuro.jpg",
+        "laboratorio": "LABOGEN",
+        "linea_medicinal": "4. Línea Antiespasmódica",
+        "tamaño_imagen": "12%",
+        "escala":"no",
+        "existe":"si"
+      }
+    ]

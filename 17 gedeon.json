@@ -1,0 +1,54 @@
+[
+    {
+        "precio": "S/8.75",
+        "nombre": "CYCLOFEMINA",
+        "descripcion": "Acetato de Medroxiprogesterona 25mg + Cipionato de Estradiol 5mg / 0,5 mL",
+        "presentacion": "Caja x 1 Ampolla IM",
+        "imagen": "imagenes/gedeon_richter/gedeon_richter_portada.jpg",
+        "imagen_producto":"imagenes/gedeon_richter/productos/cyclofemina.jpg",
+        "laboratorio": "GEDEON RICHTER",
+        "linea_medicinal": "1. Línea Ginecológica",
+        "tamaño_imagen": "1%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/13.22",
+        "nombre": "POSTINOR",
+        "descripcion": "Levonorgestrel 1.5mg",
+        "presentacion": "Caja x 1 Comprimido",
+        "imagen": "imagenes/gedeon_richter/gedeon_richter_portada.jpg",
+        "imagen_producto":"imagenes/gedeon_richter/productos/postinor.jpg",
+        "laboratorio": "GEDEON RICHTER",
+        "linea_medicinal": "1. Línea Ginecológica",
+        "tamaño_imagen": "8%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/2.65",
+        "nombre": "EVITTA",
+        "descripcion": "Levonorgestrel 1.5mg",
+        "presentacion": "Caja x 1 Comprimido",
+        "imagen": "imagenes/gedeon_richter/gedeon_richter_portada.jpg",
+        "imagen_producto":"imagenes/gedeon_richter/productos/evitta.jpg",
+        "laboratorio": "GEDEON RICHTER",
+        "linea_medicinal": "1. Línea Ginecológica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/4.06",
+        "nombre": "RIGEVIDON 21+7",
+        "descripcion": "Levonorgestrel 0,15mg + Etinilestradiol 0,03mg",
+        "presentacion": "Caja x 21+7 Comprimidos Recubiertos",
+        "imagen": "imagenes/gedeon_richter/gedeon_richter_portada.jpg",
+        "imagen_producto":"imagenes/gedeon_richter/productos/rigevidon.jpg",
+        "laboratorio": "GEDEON RICHTER",
+        "linea_medicinal": "1. Línea Ginecológica",
+        "tamaño_imagen": "1%",
+        "escala":"no",
+        "existe":"si"
+      }
+    ]

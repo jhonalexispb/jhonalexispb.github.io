@@ -73,7 +73,7 @@ body {
                     font-family: 'Varela Round', sans-serif;
                     color: white;
                     border-radius: 5px;
-                    font-size: 8px;
+                    font-size: 50%;
                     text-align: center;
                     
                     text-transform: uppercase;
@@ -133,7 +133,7 @@ body {
                     font-weight: bold;
                     font-family: 'Varela Round', sans-serif;
                     text-transform: uppercase;
-                    font-size: 6.5px;
+                    font-size: 30%;
                     overflow: hidden; 
                     text-align: center;
                     padding: 2px;
@@ -152,7 +152,7 @@ body {
                     font-family: 'Varela Round', sans-serif;
                     font-weight: bold;
                     color: white;
-                    font-size: 6px;
+                    font-size: 30%;
                     text-transform: uppercase;
                     text-align: center;
                     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
@@ -163,15 +163,6 @@ body {
                     padding-right: 3px; 
                 }
 
-
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-
-                }
 
                 /*ESCALA*/
                 #escala{
@@ -192,33 +183,11 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 68%;
                     height: 71%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
-                
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                }  
+ 
             }
 
             @media (min-width: 401px) and (max-width: 430px) {
@@ -299,6 +268,7 @@ body {
                     padding-right: 5px;
                 }
 
+
                 .producto-descripcion {   
                     font-weight: bold;
                     font-family: 'Varela Round', sans-serif;
@@ -336,15 +306,6 @@ body {
                 }
 
 
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-
-                }
-
                 /*ESCALA*/
                 #escala{
                     width: 15%;
@@ -374,33 +335,10 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 68%;
                     height: 70%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
-                
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                }  
             }
 
             @media (min-width: 431px) and (max-width: 450px) {
@@ -518,15 +456,6 @@ body {
                }
 
 
-               /*IMAGEN DEL PRODUCTO*/
-               #imagen_producto{
-                   /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                   width: 100%;
-                   height: auto;
-                   display: block;
-
-               }
-
                /*ESCALA*/
                #escala{
                    width: 15%;
@@ -556,33 +485,11 @@ body {
                }
 
                #contenerdor_imagen_principal{
-                   border: 1px solid #ccc;
                    width: 68%;
                    height: 68%;
-                   position: absolute;
                    bottom: 5%;
-                   left: 3%;
-                   border-radius: 5px;
-                   z-index: 0; 
-                   border-width: 2px; 
-                   border-color: #9B9B9B;
-                   overflow: hidden;
-                   display: flex;
-                   flex-direction: column;
-                   align-items: flex-start;
-                   justify-content: center;
                }
-               
-               #contenedor_imagen{
-                   /* border: 1px solid #ccc; */
-                   height: auto;
-                   position: absolute;
-                   border-radius: 5px;
-                   z-index: 0; 
-                   /* border-width: 2px; 
-                   border-color: #9B9B9B; */
-               
-               }  
+ 
            }
 
             @media (min-width: 451px) and (max-width: 500px) {
@@ -700,15 +607,6 @@ body {
                }
 
 
-               /*IMAGEN DEL PRODUCTO*/
-               #imagen_producto{
-                   /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                   width: 100%;
-                   height: auto;
-                   display: block;
-
-               }
-
                /*ESCALA*/
                #escala{
                    width: 15%;
@@ -738,33 +636,11 @@ body {
                }
 
                #contenerdor_imagen_principal{
-                   border: 1px solid #ccc;
                    width: 68%;
                    height: 71%;
-                   position: absolute;
                    bottom: 5%;
-                   left: 3%;
-                   border-radius: 5px;
-                   z-index: 0; 
-                   border-width: 2px; 
-                   border-color: #9B9B9B;
-                   overflow: hidden;
-                   display: flex;
-                   flex-direction: column;
-                   align-items: flex-start;
-                   justify-content: center;
                }
-               
-               #contenedor_imagen{
-                   /* border: 1px solid #ccc; */
-                   height: auto;
-                   position: absolute;
-                   border-radius: 5px;
-                   z-index: 0; 
-                   /* border-width: 2px; 
-                   border-color: #9B9B9B; */
-               
-               }  
+
            }
 
             @media (min-width: 501px) and (max-width: 699px) {
@@ -879,14 +755,6 @@ body {
                 }
 
 
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
-
                 /*ESCALA*/
                 #escala{
                     width: 20%;
@@ -916,33 +784,11 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 68%;
                     height: 71%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
-                
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                } 
+
             }
 
             @media (min-width: 700px) and (max-width: 800px) {
@@ -1033,7 +879,7 @@ body {
                     font-weight: bold;
                     font-family: 'Varela Round', sans-serif;
                     text-transform: uppercase;
-                    font-size: 15px;
+                    font-size: 12px;
                     overflow: hidden; 
                     text-align: center;
                     padding: 4px;
@@ -1052,7 +898,7 @@ body {
                     font-family: 'Varela Round', sans-serif;
                     font-weight: bold;
                     color: white;
-                    font-size: 14px;
+                    font-size: 12px;
                     text-transform: uppercase;
                     text-align: center;
                     
@@ -1065,14 +911,6 @@ body {
                     padding-right: 5px; 
                 }
 
-
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
 
                 /*ESCALA*/
                 #escala{
@@ -1093,33 +931,11 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 68%;
                     height: 73%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
                 
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                } 
             }
 
             @media (min-width: 801px) and (max-width: 850px) {
@@ -1242,14 +1058,6 @@ body {
                 }
 
 
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
-
                 /*ESCALA*/
                 #escala{
                     width: 20%;
@@ -1269,33 +1077,11 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 68%;
                     height: 73%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
-                
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                } 
+
             }
 
             @media (min-width: 851px) and (max-width: 900px){
@@ -1410,14 +1196,6 @@ body {
                 }
 
 
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
-
                 /*ESCALA*/
                 #escala{
                     width: 20%;
@@ -1437,21 +1215,9 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 70%;
                     height: 73%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
                 
                 .medicamento {
@@ -1463,17 +1229,7 @@ body {
                     width: 47.5%;
                     height: 270px;
                 }
-
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                } 
+ 
             }
 
             @media (min-width: 901px) and (max-width: 1024px){
@@ -1588,13 +1344,6 @@ body {
                 }
 
 
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
 
                 /*ESCALA*/
                 #escala{
@@ -1615,21 +1364,9 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 70%;
                     height: 75%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
                 
                 .medicamento {
@@ -1642,16 +1379,6 @@ body {
                     height: 315px;
                 }
 
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                } 
             }
 
             @media (min-width: 1025px){
@@ -1767,14 +1494,6 @@ body {
                 }
 
 
-                /*IMAGEN DEL PRODUCTO*/
-                #imagen_producto{
-                    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
-                    width: 100%;
-                    height: auto;
-                    display: block;
-                }
-
                 /*ESCALA*/
                 #escala{
                     width: 20%;
@@ -1794,21 +1513,9 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    border: 1px solid #ccc;
                     width: 70%;
                     height: 75%;
-                    position: absolute;
                     bottom: 5%;
-                    left: 3%;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    border-width: 2px; 
-                    border-color: #9B9B9B;
-                    overflow: hidden;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
                 }
                 
                 .medicamento {
@@ -1821,17 +1528,44 @@ body {
                     height: 440px;
                 }
 
-                #contenedor_imagen{
-                    /* border: 1px solid #ccc; */
-                    height: auto;
-                    position: absolute;
-                    border-radius: 5px;
-                    z-index: 0; 
-                    /* border-width: 2px; 
-                    border-color: #9B9B9B; */
-                
-                } 
             }
+
+#contenerdor_imagen_principal{
+ /*    border: 1px solid #ccc; */
+    position: absolute;
+    border-radius: 5px;
+    z-index: 0; 
+    border-width: 2px; 
+    border-color: #9B9B9B;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#contenedor_imagen{
+    /* border: 1px solid #ccc; */
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    z-index: 0; 
+    /* border-width: 2px; 
+    border-color: #9B9B9B; */
+
+} 
+
+
+#imagen_producto{
+    /* filter: drop-shadow(0 0 10px rgba(0,0,0,.8)); */ /*por si se inserta imagen png*/
+    /* height: 100%; */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
 /*IMAGEN DEL LOGO DE BONED*/
 #logoboned{
     width: 35%;
@@ -1860,7 +1594,7 @@ body {
     background-color: #DF5077;
 }
 .cintaLinea[data-linea="NORDICPHARMACEUTICAL"] {
-    background-color: #DF5077;
+    background-color: #e33737;
 }
 .cintaLinea[data-linea="INDUQUIMICA"] {
     background-color: #DB70D6;
@@ -1877,7 +1611,7 @@ body {
 .cintaLinea[data-linea="DIPHASAC_GENERICO"] {
     background-color: #6565EB;
 }
-.cintaLinea[data-linea="AJRLABS"] {
+.cintaLinea[data-linea="AJR LABS"] {
     background-color: #2164C8;
 }
 .cintaLinea[data-linea="LABOFAR"] {
@@ -1889,7 +1623,7 @@ body {
 .cintaLinea[data-linea="EMCURE"] {
     background-color: #1E64FF;
 }
-.cintaLinea[data-linea="SEVENPHARMA"] {
+.cintaLinea[data-linea="SEVEN PHARMA"] {
     background-color: #4B3CC7;
 }
 .cintaLinea[data-linea="MEDIKAR"] {
@@ -1898,7 +1632,7 @@ body {
 .cintaLinea[data-linea="CARNOT"] {
     background-color: #3D5DD3;
 }
-.cintaLinea[data-linea="GEDEON"] {
+.cintaLinea[data-linea="GEDEON RICHTER"] {
     background-color: #1F5BAF;
 }
 .cintaLinea[data-linea="EUROFARMA"] {
@@ -1959,7 +1693,7 @@ body {
 .producto-nombre[data-linea="DIPHASAC_GENERICO"] {
     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
-.producto-nombre[data-linea="AJRLABS"] {
+.producto-nombre[data-linea="AJR LABS"] {
     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
 .producto-nombre[data-linea="LABOFAR"] {
@@ -1971,7 +1705,7 @@ body {
 .producto-nombre[data-linea="EMCURE"] {
     background-image: linear-gradient(45deg, #024CFD, #3AC2F5);
 }
-.producto-nombre[data-linea="SEVENPHARMA"] {
+.producto-nombre[data-linea="SEVEN PHARMA"] {
     background-image: linear-gradient(45deg, #655AC3, #F09817);
 }
 .producto-nombre[data-linea="MEDIKAR"] {
@@ -1980,7 +1714,7 @@ body {
 .producto-nombre[data-linea="CARNOT"] {
     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
-.producto-nombre[data-linea="GEDEON"] {
+.producto-nombre[data-linea="GEDEON RICHTER"] {
     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
 .producto-nombre[data-linea="EUROFARMA"] {

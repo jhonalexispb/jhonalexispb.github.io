@@ -1,0 +1,209 @@
+[
+  {
+    "precio": "S/54.00",
+    "nombre": "ATOR 20",
+    "descripcion": "Atorvastatina 20 mg",
+    "presentacion": "Caja x 30 Tabletas Recubiertas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/ATOR 20.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "1. Línea Cardiometabólica",
+    "tamaño_imagen": "3%",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/115.00",
+    "nombre": "RODEST 20",
+    "descripcion": "Rosuvastatina 20 mg",
+    "presentacion": "Caja x 30 Tabletas Recubiertas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/RODEST 20.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "1. Línea Cardiometabólica",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/100.00",
+    "nombre": "CHESTINOR PLUS",
+    "descripcion": "Irbesartán 150 mg + Hidroclorotiazida 12.5mg",
+    "presentacion": "Caja x 28 Tabletas Recubiertas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/CHESTINOR PLUS.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "1. Línea Cardiometabólica",
+    "tamaño_imagen": "0%",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/135.00",
+    "nombre": "TELMINOR 80",
+    "descripcion": "Telmisartán 80 mg",
+    "presentacion": "Caja x 30 Tabletas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/TELMINOR 80.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "1. Línea Cardiometabólica",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/109.00",
+    "nombre": "PIDOGREL-N",
+    "descripcion": "Clopidogrel 75 mg",
+    "presentacion": "Caja x 30 Tabletas Recubiertas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/PIDOGREL-N.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "1. Línea Cardiometabólica",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/176.00",
+    "nombre": "ESTAZYL",
+    "descripcion": "Escitalopram 20 mg",
+    "presentacion": "Caja x 30 Tabletas Recubiertas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/ESTAZYL.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "1. Línea Cardiometabólica",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+
+
+
+  {
+    "precio": "S/82.00",
+    "nombre": "DOLORELIEF 75",
+    "descripcion": "Pregabalina 75 mg",
+    "presentacion": "Caja x 30 Cápsulas",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/DOLORELIEF 75.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "2. Línea Neuro",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/58.05",
+    "nombre": "ESOPRAN",
+    "descripcion": "Esomeprazol 40 mg",
+    "presentacion": "Caja x 20 Tabletas DE LIBERACION RETARDADA",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/ESOPRAN.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "3. Línea Gastro",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/7.00",
+    "nombre": "OMEPRA-N",
+    "descripcion": "Omeprazol 40 mg",
+    "presentacion": "Caja x 1 vial",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/OMEPRA-N.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "3. Línea Gastro",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/123.90",
+    "nombre": "OMEPRA-N",
+    "descripcion": "Omeprazol 40 mg",
+    "presentacion": "Caja x 20 viales",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/OMEPRA-N 20 VIALES.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "3. Línea Gastro",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/2.95",
+    "nombre": "METROSTAT 0.5%",
+    "descripcion": "Metronidazol 500mg/100mL",
+    "presentacion": "Caja x 1 Frasco DE 100ML",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/METROSTAT 0.5.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "3. Línea Gastro",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/180.00",
+    "nombre": "FLUKONOR",
+    "descripcion": "Fluconazol 150mg",
+    "presentacion": "Caja x 100 CÁPSULAS",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/FLUKONOR.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "3. Línea Gastro",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+
+
+
+  {
+    "precio": "S/100.00",
+    "nombre": "MACROKID XR",
+    "descripcion": "Nitrofurantoína 100mg",
+    "presentacion": "Caja x 30 Cápsulas de liberación prolongada",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/MACROKID XR.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "4. Línea Urológica",
+    "tamaño_imagen": "1%",
+    "escala":"si",
+    "existe":"si"
+  },
+
+
+
+  {
+    "precio": "S/2.70",
+    "nombre": "CLORURO DE SODIO",
+    "descripcion": "CLORURO DE SODIO 0.9%",
+    "presentacion": "Frasco x 100mL",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/CLORURO DE SODIO.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "5. Línea Suero",
+    "tamaño_imagen": "15%",
+    "escala":"si",
+    "existe":"si"
+  },
+
+
+
+  {
+    "precio": "S/120.00",
+    "nombre": "BIKONOR",
+    "descripcion": "Bisacodilo 5mg",
+    "presentacion": "Caja x 100 Tabletas de Liberación Retardada",
+    "imagen": "imagenes/nordicpharmaceutical/nordicpharmaceutical_portada.jpg",
+    "imagen_producto":"imagenes/nordicpharmaceutical/productos/BIKONOR.jpg",
+    "laboratorio": "NORDICPHARMACEUTICAL",
+    "linea_medicinal": "6. Línea Laxante",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  }
+]

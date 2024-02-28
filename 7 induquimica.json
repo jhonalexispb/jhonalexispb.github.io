@@ -1,0 +1,128 @@
+[
+    {
+        "precio": "S/7.62",
+        "nombre": "EXTENZE GEL",
+        "descripcion": "Diclofenaco Dietil Amonio 1%",
+        "presentacion": "CAJA X 1 TUBO DE 40G",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/EXTENZE GEL.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/35.26",
+        "nombre": "DEXAMIZAN",
+        "descripcion": "Dexametasona 4mg",
+        "presentacion": "CAJA X 100 TABLETAS",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/DEXAMIZAN.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/13.78",
+        "nombre": "SINALERG",
+        "descripcion": "Levocetirizina 2.5 mg/5 mL",
+        "presentacion": "CAJA X 1 Frasco DE 60 mL",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/SINALERG.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "2. Línea Antihistamínica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/4.39",
+        "nombre": "EVAZYR",
+        "descripcion": "Cetirizina 10 mg",
+        "presentacion": "Caja x 10 Tabletas Recubiertas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/EVAZYR.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "2. Línea Antihistamínica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/13.56",
+        "nombre": "EVAZYR SUSP.",
+        "descripcion": "Cetirizina 5 mg/5 mL",
+        "presentacion": "CAJA X 1 Jarabe DE 60 mL",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/EVAZYR SUSP.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "2. Línea Antihistamínica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/11.67",
+        "nombre": "LEXATUSSIN",
+        "descripcion": "Dextrometorfano Bromhidrato 15 mg/5 mL",
+        "presentacion": "CAJA X 1 Jarabe DE 120 mL",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/LEXATUSSIN.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "3. Línea Antitusígeno Espectorante",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/32.40",
+        "nombre": "MICOFINAL",
+        "descripcion": "Terbinafina 250 mg",
+        "presentacion": "Caja x 30 Tabletas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/MICOFINAL.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "4. Línea Antimicótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/51.64",
+        "nombre": "MAKSAN",
+        "descripcion": "Silimarina 150 mg + Complejo B",
+        "presentacion": "Caja x 120 Cápsulas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/MAKSAN.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "4. Línea Antimicótica",
+        "tamaño_imagen": "15%",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/79.64",
+        "nombre": "LEFOQUIM 500MG",
+        "descripcion": "Levofloxacino 500 mg 2.5 mg/5mL",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_comercial/LEFOQUIM 500MG.jpg",
+        "laboratorio": "INDUQUIMICA",
+        "linea_medicinal": "5. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    }
+]

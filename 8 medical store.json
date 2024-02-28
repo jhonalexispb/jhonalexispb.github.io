@@ -1,0 +1,222 @@
+[
+    {
+        "precio": "S/29.45",
+        "nombre": "NEUROTINA",
+        "descripcion": "Gabapentina 300mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/NEUROTINA.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "1. Línea Neuro",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/48.73",
+        "nombre": "VANTHIA",
+        "descripcion": "Clorhidrato de Memantina",
+        "presentacion": "Caja x 56 Tabletas Recubiertas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/VANTHIA.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "1. Línea Neuro",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/40.16",
+        "nombre": "NEUPREL",
+        "descripcion": "Pregabalina 75mg",
+        "presentacion": "Caja x 100 Cápsula Dura",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/NEUPREL.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "1. Línea Neuro",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/17.40",
+        "nombre": "MS-SUMIBLOC 40",
+        "descripcion": "Clorhidrato de propanol 40mg",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/MS-SUMIBLOC 40.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "2. Línea Cardio",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/45.52",
+        "nombre": "NIMODIPINO",
+        "descripcion": "NIMODIPINO 30 MG",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/NIMODIPINO.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "2. Línea Cardio",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+
+    {
+        "precio": "S/48.90",
+        "nombre": "LEFLUMEX 20",
+        "descripcion": "Leflunomida 20mg",
+        "presentacion": "Caja x 30 Tabletas Recubiertas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/LEFLUMEX 20.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "3. Línea Reuma/Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/6.69",
+        "nombre": "MS-PROKINET",
+        "descripcion": "Metoclopramida 10mg/2mL IV/IM",
+        "presentacion": "Caja x 10 Ampollas SI",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/MS-PROKINET.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "4. Línea Antiemética",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/18.90",
+        "nombre": "MEPRAZ 40",
+        "descripcion": "Omeprazol 40mg",
+        "presentacion": "Caja x 10 Viales",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/MEPRAZ 40.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "5. Línea Gastro",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/57.49",
+        "nombre": "ENOXAPLUS 40",
+        "descripcion": "Enoxaparina 40mg",
+        "presentacion": "Caja x 2 Jeringas Precargadas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/ENOXAPLUS 40.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "6. Línea Hematológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/69.99",
+        "nombre": "ENOXAPLUS 60",
+        "descripcion": "Enoxaparina 60mg",
+        "presentacion": "Caja x 2 Jeringas Precargadas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/ENOXAPLUS 60.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "6. Línea Hematológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/14.06",
+        "nombre": "THYROFIX 100",
+        "descripcion": "Levotiroxina Sódica 100mcg",
+        "presentacion": "Caja x 50 Tabletas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/THYROFIX 100.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "7. Línea Metabólica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+    {
+        "precio": "S/13.00",
+        "nombre": "THYROFIX 50",
+        "descripcion": "Levotiroxina Sódica 50mcg",
+        "presentacion": "Caja x 50 Tabletas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/THYROFIX 50.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "7. Línea Metabólica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+    },
+
+
+    
+    {
+        "precio": "S/12.42",
+        "nombre": "ZITROBIOT 200",
+        "descripcion": "Azitromicina 200mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 30 mL",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/ZITROBIOT 200.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "8. Línea Antibiótica",
+        "tamaño_imagen": "3%",
+        "escala":"no",
+        "existe":"si"
+    },
+    {
+        "precio": "S/16.20",
+        "nombre": "BACZOLE",
+        "descripcion": "Ceftriaxona 1g IM IV",
+        "presentacion": "Caja x 10 Viales",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/BACZOLE.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "8. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+    },
+
+
+
+    {
+        "precio": "S/6.97",
+        "nombre": "PHYSSAN",
+        "descripcion": "Furosemida 20mg/2mL IV/IM",
+        "presentacion": "Caja x 10 Ampollas",
+        "imagen": "imagenes/medicalstore/medicalstore_portada.jpg",
+        "imagen_producto":"imagenes/medicalstore/productos/PHYSSAN.jpg",
+        "laboratorio": "MEDICALSTORE",
+        "linea_medicinal": "9. Línea Diurética",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+    }
+]

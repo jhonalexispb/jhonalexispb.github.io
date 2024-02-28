@@ -1,0 +1,289 @@
+[
+    {
+        "precio": "S/80.00",
+        "nombre": "ABUBRON-AB",
+        "descripcion": "Amoxicilina 500mg + Ambroxol 30mg",
+        "presentacion": "Caja x 100 Cápsulas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/ABUBRON-AB.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "3%",
+        "escala":"si",
+        "existe":"si"
+      },
+      {
+        "precio": "S/12.45",
+        "nombre": "ABUBRON-AB SUSP.",
+        "descripcion": "Amoxicilina 250mg + Ambroxol 15mg",
+        "presentacion": "Caja x 1 Frasco de 60mL",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/ABUBRON-AB SUSP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+      {
+        "precio": "S/103.32",
+        "nombre": "ABUBRON-BR",
+        "descripcion": "Amoxicilina 500mg + Bromhexina Clorhidrato 8mg",
+        "presentacion": "Caja x 100 Cápsulas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/ABUBRON-BR.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "3%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/12.13",
+        "nombre": "ABUBRON-BR SUSP.",
+        "descripcion": "Amoxicilina 250mg/5mL + Bromhexina Clorhidrato 4mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 60mL PPSO",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/ABUBRON-BR SUSP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si"
+      },
+      {
+        "precio": "S/18.15",
+        "nombre": "FARMOXYL 500 SUSP.",
+        "descripcion": "Amoxicilina 500mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 60mL",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/FARMOXYL 500 SUSP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/25.40",
+        "nombre": "FARMOXYL 750 SUSP.",
+        "descripcion": "Amoxicilina 750mg/5mL",
+        "presentacion": "Caja x 1 Frasco de 60mL",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/FARMOXYL 750 SUSP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/50.64",
+        "nombre": "FARMOXYL 500MG",
+        "descripcion": "Amoxicilina 500mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/FARMOXYL 500MG.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "3%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/17.77",
+        "nombre": "FARMOXYL-CL SUSP",
+        "descripcion": "Amoxicilina 250mg + Acido Clavulánico 62.5mg",
+        "presentacion": "Caja x 1 Frasco de 60mL PPSO",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/FARMOXYL-CL SUSP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/27.75",
+        "nombre": "FARMOXYL-CL 875",
+        "descripcion": "Amoxicilina 875mg + Acido Clavulánico 125 mg",
+        "presentacion": "Caja x 10 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/FARMOXYL-CL 875.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "1%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/20.48",
+        "nombre": "FARMOXYL-CL 500",
+        "descripcion": "Amoxicilina 500mg + Acido clavulánico 125mg",
+        "presentacion": "Caja x 10 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/FARMOXYL-CL 500.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "1%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/54.00",
+        "nombre": "QUINOCIP",
+        "descripcion": "Ciprofloxacino 500mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/QUINOCIP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "1. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+
+      {
+        "precio": "S/44.37",
+        "nombre": "MULTIGESICO",
+        "descripcion": "Ibuprofeno 400mg",
+        "presentacion": "Caja x 60 Cápsulas blandas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/MULTIGESICO.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "2. Línea Dolor",
+        "tamaño_imagen": "2%",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/50.50",
+        "nombre": "DEXAMECOR",
+        "descripcion": "Dexametasona 4mg",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/DEXAMECOR.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "2. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/9.89",
+        "nombre": "DOLOSIN GEL",
+        "descripcion": "DOLOSIN 1% Diclofenaco Dietilamina 1.16g/100g",
+        "presentacion": "CAJA X 1 Tubo DE 50gr",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/DOLOSIN GEL.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "2. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/59.30",
+        "nombre": "MIGRADRIN-F",
+        "descripcion": "Paracetamol 250mg + Ácido acetil salicílico 250mg + Cafeína 65mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/MIGRADRIN-F.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "2. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/68.70",
+        "nombre": "MIODISTEN RELAX",
+        "descripcion": "Paracetamol 300mg + Clorzoxazona 250mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/MIODISTEN RELAX.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "3. Línea Miorelajante",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+      {
+        "precio": "S/75.53",
+        "nombre": "PLIMADOL COMPUESTO NF",
+        "descripcion": "Paracetamol 500mg + Hioscina N-Butil 10mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/PLIMADOL COMPUESTO NF.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "4. Línea Antiespasmódica",
+        "tamaño_imagen": "2%",
+        "escala":"no",
+        "existe":"si"
+      },
+
+
+
+
+      {
+        "precio": "S/77.00",
+        "nombre": "BYE GRIP DIA",
+        "descripcion": "Paracetamol 500mg + Guaifenesina 200mg + Fenilefrina Clorhidrato 10mg",
+        "presentacion": "Caja x 60 Sobres PPSO",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/BYE GRIP DIA.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "5. Línea Antrigripal",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/77.00",
+        "nombre": "BYE GRIP NOCHE",
+        "descripcion": "Paracetamol 650 mg + Ácido Ascórbico 250 mg + Clorfenamina Maleato 4 mg + Cafeína Citrato 30mg + Dextrometorfano 20mg",
+        "presentacion": "Caja x 60 Sobres PPSO",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/BYE GRIP NOCHE.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "5. Línea Antrigripal",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/48.17",
+        "nombre": "BYE GRIP",
+        "descripcion": "Paracetamol 325mg + Clorfenamina 2mg + Fenilefrina Clorhidrato 5mg + Dextrometorfano 10mg",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/BYE GRIP.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "5. Línea Antrigripal",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/5.61",
+        "nombre": "CLODERM COMPUESTO BT",
+        "descripcion": "Clotrimazol 1g Gentamicina 0,10g Betametasona 0,05g 100g",
+        "presentacion": "CAJA X 1 Tubo DE 20gr",
+        "imagen": "imagenes/lyafarm/lyafarm_portada.jpg",
+        "imagen_producto":"imagenes/lyafarm/productos/CLODERM COMPUESTO BT.jpg",
+        "laboratorio": "LYAFARM",
+        "linea_medicinal": "6. Línea Antimicótica",
+        "tamaño_imagen": "2%",
+        "escala":"si",
+        "existe":"si"
+      }
+]

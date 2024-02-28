@@ -1,0 +1,149 @@
+[
+    {
+        "precio": "S/8.63",
+        "nombre": "DEXAMETASONA 1 MG",
+        "descripcion": "",
+        "presentacion": "CAJA X 100 TABLETAS",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/DEXAMETASONA 1 MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "1. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+
+
+
+
+    {
+        "precio": "S/5.25",
+        "nombre": "LORATADINA 5MG/5ML",
+        "descripcion": "",
+        "presentacion": "CAJA X 1 Jarabe DE 60 mL",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/LORATADINA 5MG 5ML.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "2. Línea Antihistamínica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+    {
+        "precio": "S/5.55",
+        "nombre": "CLORFENAMINA 4MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/CLORFENAMINA 4MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "2. Línea Antihistamínica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+
+
+
+
+    {
+        "precio": "S/7.06",
+        "nombre": "SULFAMETOXAZOL 200MG + TRIMETOPRIMA 40MG",
+        "descripcion": "",
+        "presentacion": "Frasco x 60 mL",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/SULFAMETOXAZOL 200MG TRIMETOPRIMA 40MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "3. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+    {
+        "precio": "S/25.33",
+        "nombre": "CIPROFLOXACINO 500MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas Recubiertas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/CIPROFLOXACINO 500MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "3. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+    {
+        "precio": "S/22.00",
+        "nombre": "CLARITROMICINA 250MG/5ML",
+        "descripcion": "",
+        "presentacion": "CAJA X 1 Frasco DE 50 mL",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/CLARITROMICINA 250MG 5ML.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "3. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+
+
+
+    {
+        "precio": "S/2.39",
+        "nombre": "SILDENAFILO 100MG",
+        "descripcion": "",
+        "presentacion": "Caja x 2 Tabletas Recubiertas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/SILDENAFILO 100MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "4. Línea Urológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+    {
+        "precio": "S/8.91",
+        "nombre": "CAPTOPRIL 25MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/CAPTOPRIL 25MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "4. Línea Urológica",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+
+
+
+    {
+        "precio": "S/20.78",
+        "nombre": "ACICLOVIR 200MG",
+        "descripcion": "",
+        "presentacion": "Caja x 100 Tabletas",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/ACICLOVIR 200MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "5. Línea Antiviral",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    },
+
+
+
+    {
+        "precio": "S/8.61",
+        "nombre": "ÁCIDO ALENDRÓNICO 70MG",
+        "descripcion": "",
+        "presentacion": "CAJA X 4 TABLETAS",
+        "imagen": "imagenes/induquimica/induquimica_portada.jpg",
+        "imagen_producto":"imagenes/induquimica/productos/induquimica_generico/ÁCIDO ALENDRÓNICO 70MG.jpg",
+        "laboratorio": "INDUQUIMICA_GENERICO",
+        "linea_medicinal": "6. Línea Gastro",
+        "tamaño_imagen": "auto",
+        "escala":"si",
+        "existe":"si" 
+    }
+]
