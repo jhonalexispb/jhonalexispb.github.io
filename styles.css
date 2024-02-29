@@ -5,6 +5,15 @@ body {
     overflow-x: hidden; /* Para evitar la barra de desplazamiento horizontal */
 }
 
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* body {
+  background: radial-gradient(circle, rgb(10 60 202) 0%, #042e52 100%);
+} */
 
 
 /*CONTENDEDOR DEL LABORATORIO*/
@@ -183,7 +192,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 68%;
+                    
                     height: 71%;
                     bottom: 5%;
                 }
@@ -335,7 +344,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 68%;
+                    
                     height: 70%;
                     bottom: 5%;
                 }
@@ -485,7 +494,7 @@ body {
                }
 
                #contenerdor_imagen_principal{
-                   width: 68%;
+                   
                    height: 68%;
                    bottom: 5%;
                }
@@ -636,7 +645,7 @@ body {
                }
 
                #contenerdor_imagen_principal{
-                   width: 68%;
+                   
                    height: 71%;
                    bottom: 5%;
                }
@@ -784,7 +793,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 68%;
+                    
                     height: 71%;
                     bottom: 5%;
                 }
@@ -931,7 +940,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 68%;
+                    
                     height: 73%;
                     bottom: 5%;
                 }
@@ -1077,7 +1086,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 68%;
+                    
                     height: 73%;
                     bottom: 5%;
                 }
@@ -1215,7 +1224,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 70%;
+                    
                     height: 73%;
                     bottom: 5%;
                 }
@@ -1364,7 +1373,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 70%;
+                    
                     height: 75%;
                     bottom: 5%;
                 }
@@ -1513,7 +1522,7 @@ body {
                 }
 
                 #contenerdor_imagen_principal{
-                    width: 70%;
+                    
                     height: 75%;
                     bottom: 5%;
                 }
@@ -1531,7 +1540,11 @@ body {
             }
 
 #contenerdor_imagen_principal{
- /*    border: 1px solid #ccc; */
+    width: 58%;
+
+
+/*     border: 1px solid #ccc; */
+
     position: absolute;
     border-radius: 5px;
     z-index: 0; 
@@ -1545,14 +1558,14 @@ body {
 }
 
 #contenedor_imagen{
-    /* border: 1px solid #ccc; */
+    
     height: 100%;
     position: absolute;
     border-radius: 5px;
     z-index: 0; 
     /* border-width: 2px; 
-    border-color: #9B9B9B; */
-
+    border-color: #9B9B9B;
+    border: 1px solid #ccc; */
 } 
 
 
@@ -1659,7 +1672,6 @@ body {
 .cintaLinea[data-linea="ARIAL"] {
     background-color: #3BDAEB;
 }
-
 /*COLOR DEL DIV DEL PRODUCTO*/
 
 .producto-nombre[data-linea="DROPESAC"] {
@@ -1744,6 +1756,4 @@ body {
 .producto-nombre[data-linea="ARIAL"] {
     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
-
-
 
