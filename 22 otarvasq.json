@@ -100,7 +100,7 @@
         "laboratorio": "OTARVASQ",
         "linea_medicinal": "4. Línea Metabólicaa",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -113,7 +113,7 @@
         "laboratorio": "OTARVASQ",
         "linea_medicinal": "5. Línea Urológica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }
     ]

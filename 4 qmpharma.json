@@ -39,6 +39,19 @@
         "existe":"si"
       },
       {
+        "precio": "S/. 49.54",
+        "nombre": "ETORIGLOB 120",
+        "descripcion": "ETORICOXIB 120",
+        "presentacion": "CAJA X 30 TABLETAS RECUBIERTAS",
+        "imagen": "imagenes/qmpharma/qmpharma_portada.jpg",
+        "imagen_producto":"imagenes/qmpharma/productos/ETORIGLOB 120.jpg",
+        "laboratorio": "QMPHARMA",
+        "linea_medicinal": "1. Línea Dolor",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
         "precio": "S/88.33",
         "nombre": "SPASMONIUM",
         "descripcion": "Bromuro de Otilonio 40mg",
@@ -65,7 +78,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/17.98",
+        "precio": "S/19.18",
         "nombre": "SUPRACORT 15MG",
         "descripcion": "Prednisolona FosfatoSódico 15mg/5mL",
         "presentacion": "Caja x 1 Frasco de 100mL SO",
@@ -78,7 +91,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/17.16",
+        "precio": "S/18.23",
         "nombre": "SUPRACORT 5MG",
         "descripcion": "Prednisolona FosfatoSódico 5mg/5mL",
         "presentacion": "Caja x 1 Frasco de 120mL SO",
@@ -91,10 +104,36 @@
         "existe":"si"
       },
 
-
+      {
+        "precio": "S/12.00",
+        "nombre": "LEVOGLOB 500MG",
+        "descripcion": "LEVOFLOXACINO 500MG",
+        "presentacion": "Caja x 10 Tabletas Recubiertas",
+        "imagen": "imagenes/qmpharma/qmpharma_portada.jpg",
+        "imagen_producto":"imagenes/qmpharma/productos/LEVOGLOB 500MG.jpg",
+        "laboratorio": "QMPHARMA",
+        "linea_medicinal": "2. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
 
       {
-        "precio": "S/47.59",
+        "precio": "S/19.80",
+        "nombre": "LEVOGLOB 750MG",
+        "descripcion": "",
+        "presentacion": "Caja x 10 Tabletas Recubiertas",
+        "imagen": "imagenes/qmpharma/qmpharma_portada.jpg",
+        "imagen_producto":"imagenes/qmpharma/productos/LEVOGLOB 750MG.jpg",
+        "laboratorio": "QMPHARMA",
+        "linea_medicinal": "2. Línea Antibiótica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+
+      {
+        "precio": "S/53.28",
         "nombre": "LEVOFLOXACINO 500MG",
         "descripcion": "",
         "presentacion": "Caja x 100 Tabletas Recubiertas",
@@ -136,7 +175,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/76.18",
+        "precio": "S/81.12",
         "nombre": "PANTOPRAZOL 40MG",
         "descripcion": "",
         "presentacion": "Caja x 100 Tabletas de Liberación Retardada",
@@ -245,7 +284,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/23.79",
+        "precio": "S/25.20",
         "nombre": "TAMSULOSINA CLORHIDRADO",
         "descripcion": "Betahistina 24mg",
         "presentacion": "Caja x 60 Cápsulas duras de Liberación Prolongada",
@@ -359,7 +398,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/25.44",
+        "precio": "S/27.84",
         "nombre": "DESLORATADINA 5MG",
         "descripcion": "",
         "presentacion": "Caja x 100 Tabletas Recubiertas",
@@ -432,7 +471,7 @@
 
 
       {
-        "precio": "S/14.50",
+        "precio": "S/17.40",
         "nombre": "LOSARTAN POTASICO",
         "descripcion": "",
         "presentacion": "Caja x 100 Tabletas Recubiertas",

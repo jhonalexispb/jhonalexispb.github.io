@@ -61,7 +61,7 @@
         "laboratorio": "DANY",
         "linea_medicinal": "2. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -100,7 +100,7 @@
         "laboratorio": "DANY",
         "linea_medicinal": "4. Línea Antifúngica",
         "tamaño_imagen": "10%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }
     ]

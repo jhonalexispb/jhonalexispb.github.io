@@ -9,7 +9,7 @@
         "laboratorio": "GEDEON RICHTER",
         "linea_medicinal": "1. Línea Ginecológica",
         "tamaño_imagen": "1%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -22,7 +22,7 @@
         "laboratorio": "GEDEON RICHTER",
         "linea_medicinal": "1. Línea Ginecológica",
         "tamaño_imagen": "8%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {

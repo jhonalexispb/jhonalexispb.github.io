@@ -48,7 +48,7 @@
         "laboratorio": "MEDIKAR",
         "linea_medicinal": "3. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }, 
       {
@@ -74,7 +74,7 @@
         "laboratorio": "MEDIKAR",
         "linea_medicinal": "3. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }, 
       {

@@ -143,9 +143,6 @@
         "existe":"si"
       },
 
-
-
-
       {
         "precio": "S/44.37",
         "nombre": "MULTIGESICO",
@@ -182,7 +179,7 @@
         "laboratorio": "LYAFARM",
         "linea_medicinal": "2. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {

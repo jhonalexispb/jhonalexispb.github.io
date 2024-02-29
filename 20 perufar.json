@@ -9,7 +9,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -22,7 +22,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -35,7 +35,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -48,7 +48,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -61,7 +61,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -74,7 +74,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -87,7 +87,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -100,7 +100,7 @@
         "laboratorio": "PERUFAR",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }
     ]

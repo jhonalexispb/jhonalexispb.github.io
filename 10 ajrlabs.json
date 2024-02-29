@@ -87,7 +87,7 @@
     "laboratorio": "AJR LABS",
     "linea_medicinal": "3. Línea Dolor",
     "tamaño_imagen": "1%",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -152,7 +152,7 @@
     "laboratorio": "AJR LABS",
     "linea_medicinal": "6. Línea  Antiviral",
     "tamaño_imagen": "auto",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {

@@ -9,7 +9,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "1. Línea Antibiótica",
     "tamaño_imagen": "auto",
-    "escala":"si",
+    "escala":"no",
     "existe":"si"
   },
   {
@@ -35,7 +35,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "1. Línea Antibiótica",
     "tamaño_imagen": "auto",
-    "escala":"si",
+    "escala":"no",
     "existe":"si"
   },
   {
@@ -61,7 +61,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "1. Línea Antibiótica",
     "tamaño_imagen": "70",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -129,7 +129,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "2. Línea Dolor",
     "tamaño_imagen": "100",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -142,7 +142,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "2. Línea Dolor",
     "tamaño_imagen": "70",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -177,19 +177,7 @@
 
 
 
-  {
-    "precio": "S/13.81",
-    "nombre": "CLASIPRO",
-    "descripcion": "Bacillus Clausii 2000 millones de esporas/5mL Suspención Oral",
-    "presentacion": "caja x 10 Frascos de 5mL",
-    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-    "imagen_producto":"imagenes/dropesac/productos/CLASIPRO.jpg",
-    "laboratorio": "DROPESAC",
-    "linea_medicinal": "3. Línea Gastro",
-    "tamaño_imagen": "auto",
-    "escala":"no",
-    "existe":"si"
-  },
+  
   {
     "precio": "S/22.95",
     "nombre": "VENTRIS",
@@ -197,6 +185,19 @@
     "presentacion": "Caja x 30 Tabletas Recubiertas",
     "imagen": "imagenes/dropesac/dropesac_portada.jpg",
     "imagen_producto":"imagenes/dropesac/productos/VENTRIS.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "3. Línea Gastro",
+    "tamaño_imagen": "auto",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/13.81",
+    "nombre": "CLASIPRO",
+    "descripcion": "Bacillus Clausii 2000 millones de esporas/5mL Suspención Oral",
+    "presentacion": "caja x 10 Frascos de 5mL",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/CLASIPRO.jpg",
     "laboratorio": "DROPESAC",
     "linea_medicinal": "3. Línea Gastro",
     "tamaño_imagen": "auto",
@@ -226,7 +227,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "4. Línea Metabólica",
     "tamaño_imagen": "auto",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -239,7 +240,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "4. Línea Metabólica",
     "tamaño_imagen": "auto",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -271,7 +272,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "5. Línea Antigripal",
     "tamaño_imagen": "1%",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
 
@@ -287,7 +288,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "6. Línea Ginecológica",
     "tamaño_imagen": "auto",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -317,7 +318,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "7. Línea Natural",
     "tamaño_imagen": "auto",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -330,7 +331,7 @@
     "laboratorio": "DROPESAC",
     "linea_medicinal": "7. Línea Natural",
     "tamaño_imagen": "auto",
-    "escala":"no",
+    "escala":"si",
     "existe":"si"
   },
   {
@@ -347,7 +348,7 @@
     "existe":"si"
   },
   {
-    "precio": "S/20.56",
+    "precio": "S/23.28",
     "nombre": "APITUSIK",
     "descripcion": "Tintura de Tomillo y Tintura de Propóleo en jarabe de miel de abeja",
     "presentacion": "Caja x 1 Frasco de 100 mL",
@@ -360,7 +361,7 @@
     "existe":"si"
   },
   {
-    "precio": "S/23.43",
+    "precio": "S/23.91",
     "nombre": "HEMOPROPIN",
     "descripcion": "Ingredientes naturales que alivian los síntomas causados por las hemorroides Unguento",
     "presentacion": "caja x 1 Tubo de 20 gr",
@@ -373,7 +374,7 @@
     "existe":"si"
   },
   {
-    "precio": "S/17.51",
+    "precio": "S/22.31",
     "nombre": "APIPOL PROPOLIS",
     "descripcion": "Protege, hidrata, refresca, suaviza y renueva la piel sensible Unguento",
     "presentacion": "caja x 1 Tubo de 20 gr",
@@ -386,7 +387,7 @@
     "existe":"si"
   },
   {
-    "precio": "S/14.87",
+    "precio": "S/28.13",
     "nombre": "KAPSIHEAT",
     "descripcion": "",
     "presentacion": "caja x 1 Tubo de 60gr",
@@ -426,7 +427,7 @@
         "laboratorio": "DROPESAC",
         "linea_medicinal": "8. Línea Vitaminas",
         "tamaño_imagen": "10%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -439,7 +440,7 @@
         "laboratorio": "DROPESAC",
         "linea_medicinal": "8. Línea Vitaminas",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -452,7 +453,7 @@
         "laboratorio": "DROPESAC",
         "linea_medicinal": "8. Línea Vitaminas",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -482,7 +483,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/44.68",
+        "precio": "S/54.73",
         "nombre": "INMU CARE",
         "descripcion": "Suplemento Dietetico",
         "presentacion": "Caja x 60 Cápsulas",
@@ -508,7 +509,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/27.32",
+        "precio": "S/30.71",
         "nombre": "FERROVITON-S",
         "descripcion": "Hierro Sucrosa 100mg/5mL",
         "presentacion": "Caja x 5 Ampollas",
@@ -534,7 +535,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/37.13",
+        "precio": "S/47.29",
         "nombre": "OMEGA 369",
         "descripcion": "Omega 1200mg",
         "presentacion": "Frasco x 90 Cápsulas Blandas",
@@ -586,7 +587,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/29.38",
+        "precio": "S/30.29",
         "nombre": "multivitamins gummy",
         "descripcion": "Gomitas bear",
         "presentacion": "Frasco x 60 Gomitas Kids",
@@ -599,7 +600,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/27.62",
+        "precio": "S/33.93",
         "nombre": "OMEGA 3 GOMITAS",
         "descripcion": "Gomitas Fish",
         "presentacion": "Frasco x 60 Gomitas Kids",
@@ -612,7 +613,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/24.75",
+        "precio": "S/31.80",
         "nombre": "CALCIUM D3 GOMITAS",
         "descripcion": "Gomitas Rabbits",
         "presentacion": "Frasco x 60 Gomitas Kids",
@@ -625,7 +626,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/29.47",
+        "precio": "S/33.91",
         "nombre": "kids vitamin c + zinc",
         "descripcion": "gomitas lyon",
         "presentacion": "Frasco x 60 Gomitas Kids",
@@ -638,7 +639,7 @@
         "existe":"si"
       },
       {
-        "precio": "S/36.50",
+        "precio": "S/43.46",
         "nombre": "ARTHRON",
         "descripcion": "Glucosamina 500mg + Condroitina 400mg + Metilsufonilmetanoi 300mg",
         "presentacion": "Frasco x 60 tabletas recubiertas",
@@ -660,7 +661,7 @@
         "laboratorio": "DROPESAC",
         "linea_medicinal": "9. Línea Cardio",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {

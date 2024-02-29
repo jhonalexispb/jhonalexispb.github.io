@@ -9,7 +9,7 @@
         "laboratorio": "JPS",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -22,7 +22,7 @@
         "laboratorio": "JPS",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -61,7 +61,7 @@
         "laboratorio": "JPS",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -74,7 +74,7 @@
         "laboratorio": "JPS",
         "linea_medicinal": "2. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -100,7 +100,7 @@
         "laboratorio": "JPS",
         "linea_medicinal": "2. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {

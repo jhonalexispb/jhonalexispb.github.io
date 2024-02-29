@@ -187,7 +187,7 @@
         "laboratorio": "MEDICALSTORE",
         "linea_medicinal": "8. Línea Antibiótica",
         "tamaño_imagen": "3%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
     },
     {
@@ -216,7 +216,7 @@
         "laboratorio": "MEDICALSTORE",
         "linea_medicinal": "9. Línea Diurética",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
     }
 ]

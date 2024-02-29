@@ -9,7 +9,7 @@
         "laboratorio": "SEVEN PHARMA",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -22,7 +22,7 @@
         "laboratorio": "SEVEN PHARMA",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -35,7 +35,7 @@
         "laboratorio": "SEVEN PHARMA",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -48,7 +48,7 @@
         "laboratorio": "SEVEN PHARMA",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "10%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -61,7 +61,7 @@
         "laboratorio": "SEVEN PHARMA",
         "linea_medicinal": "1. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -100,7 +100,7 @@
         "laboratorio": "SEVEN PHARMA",
         "linea_medicinal": "4. Línea Antianémica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }
     ]

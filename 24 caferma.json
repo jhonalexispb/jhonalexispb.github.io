@@ -87,7 +87,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       }, 
       {
@@ -100,7 +100,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -113,7 +113,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "0%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -126,7 +126,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "1. Línea Dolor",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -217,7 +217,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "2. Línea Antibiótica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -230,7 +230,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "3. Línea Gastro",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -308,7 +308,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "4. Línea Metabólica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       
@@ -361,7 +361,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "6. Línea Neuro",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -374,7 +374,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "6. Línea Neuro",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -387,7 +387,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "6. Línea Neuro",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -543,7 +543,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "10. Línea Urológica",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -569,7 +569,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "12. Línea OTC",
         "tamaño_imagen": "1%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -582,7 +582,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "12. Línea OTC",
         "tamaño_imagen": "1%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
@@ -595,7 +595,7 @@
         "laboratorio": "CAFERMA",
         "linea_medicinal": "12. Línea OTC",
         "tamaño_imagen": "auto",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {

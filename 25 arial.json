@@ -1,0 +1,28 @@
+[
+    {
+        "precio": "S/9.50",
+        "nombre": "DALEMAX 20MG",
+        "descripcion": "TADALAFILO 20MG",
+        "presentacion": "Caja x 4 TABLETAS",
+        "imagen": "imagenes/arial/arial_portada.jpg",
+        "imagen_producto":"imagenes/arial/productos/DALEMAX 20MG.jpg",
+        "laboratorio": "ARIAL",
+        "linea_medicinal": "1. Línea Urológica",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      },
+      {
+        "precio": "S/32.50",
+        "nombre": "ENJOY LOVE",
+        "descripcion": "PRESERVATIVO",
+        "presentacion": "Caja x 24",
+        "imagen": "imagenes/arial/arial_portada.jpg",
+        "imagen_producto":"imagenes/arial/productos/ENJOY LOVE.jpg",
+        "laboratorio": "ARIAL",
+        "linea_medicinal": "2. Línea Protección",
+        "tamaño_imagen": "auto",
+        "escala":"no",
+        "existe":"si"
+      }
+]

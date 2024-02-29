@@ -34,7 +34,7 @@
         "imagen_producto":"imagenes/tobal/productos/DOLAMINE EXTRA FORTE.jpg",
         "laboratorio": "TOBAL",
         "linea_medicinal": "2. Línea Dolor Miorelajante",
-        "tamaño_imagen": "10%",
+        "tamaño_imagen": "auto",
         "escala":"no",
         "existe":"si"
       },
@@ -100,7 +100,7 @@
         "laboratorio": "TOBAL",
         "linea_medicinal": "2. Línea Dolor Miorelajante",
         "tamaño_imagen": "1%",
-        "escala":"no",
+        "escala":"si",
         "existe":"si"
       },
       {
