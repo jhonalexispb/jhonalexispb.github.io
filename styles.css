@@ -1656,6 +1656,9 @@ body {
 .cintaLinea[data-linea="CAFERMA"] {
     background-color: #0E5BC0;
 }
+.cintaLinea[data-linea="ARIAL"] {
+    background-color: #3BDAEB;
+}
 
 /*COLOR DEL DIV DEL PRODUCTO*/
 
@@ -1738,4 +1741,9 @@ body {
 .producto-nombre[data-linea="CAFERMA"] {
     background-image: linear-gradient(45deg, #0038FC, #03C1A3);
 }
+.producto-nombre[data-linea="ARIAL"] {
+    background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+}
+
+
 
