@@ -5,7 +5,7 @@
     "descripcion": "Cefalexina 500mg",
     "presentacion": "Caja x 100 Cápsulas",
     "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-    "imagen_producto":"imagenes/dropesac/productos/KELEXYN.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/KELEXYN.png",
     "laboratorio": "DROPESAC",
     "linea_medicinal": "1. Línea Antibiótica",
     "tamaño_imagen": "auto",
@@ -18,7 +18,7 @@
     "descripcion": "Cefadroxilo 500mg",
     "presentacion": "Caja x 100 Cápsulas",
     "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-    "imagen_producto":"imagenes/dropesac/productos/KEFDYL.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/KEFDYL.png",
     "laboratorio": "DROPESAC",
     "linea_medicinal": "1. Línea Antibiótica",
     "tamaño_imagen": "auto",
@@ -44,7 +44,7 @@
     "descripcion": "CEFALEXINA 250MG/5ML",
     "presentacion": "Caja x 1 Frasco de 60ml",
     "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-    "imagen_producto":"imagenes/dropesac/productos/KELEXYN SUSP.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/KELEXYN SUSP.png",
     "laboratorio": "DROPESAC",
     "linea_medicinal": "1. Línea Antibiótica",
     "tamaño_imagen": "10%",
@@ -77,9 +77,6 @@
     "escala":"no",
     "existe":"si"
   },
-
-
-
   {
     "precio": "S/18.89",
     "nombre": "CLANZA 100",
@@ -170,14 +167,7 @@
     "tamaño_imagen": "70",
     "escala":"no",
     "existe":"si"
-  },
-
-
-
-
-
-
-  
+  },  
   {
     "precio": "S/22.95",
     "nombre": "VENTRIS",
@@ -256,12 +246,6 @@
     "escala":"no",
     "existe":"si"
   },
-
-
-
-
-
-
   {
     "precio": "S/54.18",
     "nombre": "DR. FLU",
@@ -275,9 +259,6 @@
     "escala":"si",
     "existe":"si"
   },
-
-
-
   {
     "precio": "S/38.57",
     "nombre": "NEONYPOL",
@@ -304,10 +285,6 @@
     "escala":"no",
     "existe":"si"
   },
-
-
-
-
   {
     "precio": "S/17.00",
     "nombre": "SYNATURA X 21",
@@ -399,286 +376,277 @@
     "escala":"no",
     "existe":"si"
   },
-
-
-
-
-
-      {
-        "precio": "S/20.06",
-        "nombre": "BIOVITON",
-        "descripcion": "Suplemento Dietetico",
-        "presentacion": "Caja x 30 Cápsulas Blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/BIOVITON.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "10%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/28.93",
-        "nombre": "ORAMIN - F",
-        "descripcion": "Multivitaminico con Ginseng rojo y jalea real",
-        "presentacion": "Caja x 30 Cápsulas Blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/ORAMIN - F.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "10%",
-        "escala":"si",
-        "existe":"si"
-      },
-      {
-        "precio": "S/111.56",
-        "nombre": "B-VAT",
-        "descripcion": "",
-        "presentacion": "Caja x 10 Ampollas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/B-VAT.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"si",
-        "existe":"si"
-      },
-      {
-        "precio": "S/146.62",
-        "nombre": "B-VAT FORTE",
-        "descripcion": "",
-        "presentacion": "Caja x 10 Ampollas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/B-VAT FORTE.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"si",
-        "existe":"si"
-      },
-      {
-        "precio": "S/38.63",
-        "nombre": "REFORCE",
-        "descripcion": "Acido Ascórbico 7.5g/50mLIV",
-        "presentacion": "Caja x 1 Vial de 50mL SI",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/REFORCE.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/120.06",
-        "nombre": "M-VAT",
-        "descripcion": "Mecobalamina 500ug/1mL",
-        "presentacion": "Caja x 10 Amp.",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/M-VAT.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/54.73",
-        "nombre": "INMU CARE",
-        "descripcion": "Suplemento Dietetico",
-        "presentacion": "Caja x 60 Cápsulas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/INMU CARE.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/37.17",
-        "nombre": "VITAMINA D3",
-        "descripcion": "Suplemento Dietetico",
-        "presentacion": "Frasco x 60 Cápsulas blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/VITAMINA D3.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/30.71",
-        "nombre": "FERROVITON-S",
-        "descripcion": "Hierro Sucrosa 100mg/5mL",
-        "presentacion": "Caja x 5 Ampollas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/FERROVITON-S.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/38.68",
-        "nombre": "FERROVITON",
-        "descripcion": "",
-        "presentacion": "caja x 60 capsulas blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/FERROVITON.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "auto",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/47.29",
-        "nombre": "OMEGA 369",
-        "descripcion": "Omega 1200mg",
-        "presentacion": "Frasco x 90 Cápsulas Blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/OMEGA 369.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/31.64",
-        "nombre": "OMEGA 3",
-        "descripcion": "Suplemento dietético",
-        "presentacion": "Frasco x 60 Cápsulas Blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/OMEGA 3.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/31.68",
-        "nombre": "BIOTINA & B12",
-        "descripcion": "Suplemento dietético",
-        "presentacion": "Frasco x 60 Cápsulas Blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/BIOTINA & B12.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/40.52",
-        "nombre": "LUTEINA",
-        "descripcion": "LUTEÍNA 20MG",
-        "presentacion": "Frasco x 60 Cápsulas Blandas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/LUTEINA.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/30.29",
-        "nombre": "multivitamins gummy",
-        "descripcion": "Gomitas bear",
-        "presentacion": "Frasco x 60 Gomitas Kids",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/multivitamins gummy.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/33.93",
-        "nombre": "OMEGA 3 GOMITAS",
-        "descripcion": "Gomitas Fish",
-        "presentacion": "Frasco x 60 Gomitas Kids",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/OMEGA 3 GOMITAS.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/31.80",
-        "nombre": "CALCIUM D3 GOMITAS",
-        "descripcion": "Gomitas Rabbits",
-        "presentacion": "Frasco x 60 Gomitas Kids",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/CALCIUM D3 GOMITAS.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/33.91",
-        "nombre": "kids vitamin c + zinc",
-        "descripcion": "gomitas lyon",
-        "presentacion": "Frasco x 60 Gomitas Kids",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/kids vitamin c + zinc.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/43.46",
-        "nombre": "ARTHRON",
-        "descripcion": "Glucosamina 500mg + Condroitina 400mg + Metilsufonilmetanoi 300mg",
-        "presentacion": "Frasco x 60 tabletas recubiertas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/ARTHRON.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "8. Línea Vitaminas",
-        "tamaño_imagen": "15%",
-        "escala":"no",
-        "existe":"si"
-      },
-      {
-        "precio": "S/53.12",
-        "nombre": "PAINFART",
-        "descripcion": "Clopidogrel 75mg",
-        "presentacion": "Caja x 30 Tabletas Recubiertas",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/PAINFART.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "9. Línea Cardio",
-        "tamaño_imagen": "auto",
-        "escala":"si",
-        "existe":"si"
-      },
-      {
-        "precio": "S/19.06",
-        "nombre": "APIPRODENT SPRAY",
-        "descripcion": "Combate el mal aliento y dolor de garganta",
-        "presentacion": "Caja x 1 Frasco de 20mL",
-        "imagen": "imagenes/dropesac/dropesac_portada.jpg",
-        "imagen_producto":"imagenes/dropesac/productos/APIPRODENT SPRAY.jpg",
-        "laboratorio": "DROPESAC",
-        "linea_medicinal": "10. Línea Odontológica",
-        "tamaño_imagen": "10%",
-        "escala":"no",
-        "existe":"si"
-      }
-
-
-
-
+  {
+    "precio": "S/20.06",
+    "nombre": "BIOVITON",
+    "descripcion": "Suplemento Dietetico",
+    "presentacion": "Caja x 30 Cápsulas Blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/BIOVITON.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "10%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/28.93",
+    "nombre": "ORAMIN - F",
+    "descripcion": "Multivitaminico con Ginseng rojo y jalea real",
+    "presentacion": "Caja x 30 Cápsulas Blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/ORAMIN - F.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "10%",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/111.56",
+    "nombre": "B-VAT",
+    "descripcion": "",
+    "presentacion": "Caja x 10 Ampollas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/B-VAT.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/146.62",
+    "nombre": "B-VAT FORTE",
+    "descripcion": "",
+    "presentacion": "Caja x 10 Ampollas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/B-VAT FORTE.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/38.63",
+    "nombre": "REFORCE",
+    "descripcion": "Acido Ascórbico 7.5g/50mLIV",
+    "presentacion": "Caja x 1 Vial de 50mL SI",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/REFORCE.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/120.06",
+    "nombre": "M-VAT",
+    "descripcion": "Mecobalamina 500ug/1mL",
+    "presentacion": "Caja x 10 Amp.",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/M-VAT.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/54.73",
+    "nombre": "INMU CARE",
+    "descripcion": "Suplemento Dietetico",
+    "presentacion": "Caja x 60 Cápsulas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/INMU CARE.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/37.17",
+    "nombre": "VITAMINA D3",
+    "descripcion": "Suplemento Dietetico",
+    "presentacion": "Frasco x 60 Cápsulas blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/VITAMINA D3.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/30.71",
+    "nombre": "FERROVITON-S",
+    "descripcion": "Hierro Sucrosa 100mg/5mL",
+    "presentacion": "Caja x 5 Ampollas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/FERROVITON-S.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/38.68",
+    "nombre": "FERROVITON",
+    "descripcion": "",
+    "presentacion": "caja x 60 capsulas blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/FERROVITON.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "auto",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/47.29",
+    "nombre": "OMEGA 369",
+    "descripcion": "Omega 1200mg",
+    "presentacion": "Frasco x 90 Cápsulas Blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/OMEGA 369.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/31.64",
+    "nombre": "OMEGA 3",
+    "descripcion": "Suplemento dietético",
+    "presentacion": "Frasco x 60 Cápsulas Blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/OMEGA 3.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/31.68",
+    "nombre": "BIOTINA & B12",
+    "descripcion": "Suplemento dietético",
+    "presentacion": "Frasco x 60 Cápsulas Blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/BIOTINA & B12.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/40.52",
+    "nombre": "LUTEINA",
+    "descripcion": "LUTEÍNA 20MG",
+    "presentacion": "Frasco x 60 Cápsulas Blandas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/LUTEINA.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/30.29",
+    "nombre": "multivitamins gummy",
+    "descripcion": "Gomitas bear",
+    "presentacion": "Frasco x 60 Gomitas Kids",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/multivitamins gummy.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/33.93",
+    "nombre": "OMEGA 3 GOMITAS",
+    "descripcion": "Gomitas Fish",
+    "presentacion": "Frasco x 60 Gomitas Kids",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/OMEGA 3 GOMITAS.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/31.80",
+    "nombre": "CALCIUM D3 GOMITAS",
+    "descripcion": "Gomitas Rabbits",
+    "presentacion": "Frasco x 60 Gomitas Kids",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/CALCIUM D3 GOMITAS.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/33.91",
+    "nombre": "kids vitamin c + zinc",
+    "descripcion": "gomitas lyon",
+    "presentacion": "Frasco x 60 Gomitas Kids",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/kids vitamin c + zinc.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/43.46",
+    "nombre": "ARTHRON",
+    "descripcion": "Glucosamina 500mg + Condroitina 400mg + Metilsufonilmetanoi 300mg",
+    "presentacion": "Frasco x 60 tabletas recubiertas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/ARTHRON.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "8. Línea Vitaminas",
+    "tamaño_imagen": "15%",
+    "escala":"no",
+    "existe":"si"
+  },
+  {
+    "precio": "S/53.12",
+    "nombre": "PAINFART",
+    "descripcion": "Clopidogrel 75mg",
+    "presentacion": "Caja x 30 Tabletas Recubiertas",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/PAINFART.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "9. Línea Cardio",
+    "tamaño_imagen": "auto",
+    "escala":"si",
+    "existe":"si"
+  },
+  {
+    "precio": "S/19.06",
+    "nombre": "APIPRODENT SPRAY",
+    "descripcion": "Combate el mal aliento y dolor de garganta",
+    "presentacion": "Caja x 1 Frasco de 20mL",
+    "imagen": "imagenes/dropesac/dropesac_portada.jpg",
+    "imagen_producto":"imagenes/dropesac/productos/APIPRODENT SPRAY.jpg",
+    "laboratorio": "DROPESAC",
+    "linea_medicinal": "10. Línea Odontológica",
+    "tamaño_imagen": "10%",
+    "escala":"no",
+    "existe":"si"
+  }
 ]

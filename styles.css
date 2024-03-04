@@ -1,19 +1,292 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Para evitar la barra de desplazamiento horizontal */
 }
+h1{
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+#inicio{
+    font-family: 'Varela Round', sans-serif;
+    border-radius: 5px;
+    background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 15px;
+        margin-right: 5px;
+
+}
+    #inicio i:hover{
+        color: #0167AB;
+        transform: scale(1.3);
+    }
+
+/* .search-container { */
+    /* color: black;
+    position: sticky;
+    top: 0; */
+    /* background-color: white; */
+   /*  z-index: 1000; */ /* Asegura que esté por encima de otros elementos */
+    /* padding: 10px;
+    border-bottom: 1px solid #ddd; */ /* Agrega un borde inferior */
+    /* position: sticky;
+    z-index: 1000; */
+    
+
+    #buscador{
+        background-image: linear-gradient(45deg, #0038FC, #03C1A3);
+        position: sticky;
+        top: 0;
+        margin: 0;
+        height: 40px;
+        width: 100%;
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search-container {
+        position: relative;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #limpiar{
+        display: none;
+    }
+
+    #barraBuscar{
+        position: relative;
+        width: 150px;
+        height:  26px;
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    #siguiente{
+        cursor:pointer;
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        background-color: transparent;
+        border: none;
+    }
+    #siguiente i {
+        font-size: 12px;
+        color: yellow;
+    
+    }
+    
+    
+    #siguiente i:hover{
+        color: #0167AB;
+        transform: scale(1.3);
+    }
+    #anterior{
+        cursor:pointer;
+        border-radius: 100%;
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        background-color: transparent;
+        border: none;
+    }
+    #anterior i {
+        font-size: 12px;
+        color: yellow;
+    
+    }
+    
+    
+    #anterior i:hover{
+        color: #0167AB;
+        transform: scale(1.3);
+    }
+
+    input {
+        
+        box-sizing: border-box;
+        height: 100%;
+        left: 0;
+        width: 100%;
+        padding: 0 10px;
+        color: #000;
+        border-radius: 50px;
+        font-size: 15px;
+        border: none;
+        font-family: 'Varela Round', sans-serif;
+    }
+    
+    ::placeholder {
+        color: grey;
+        font-size: 12px;
+        font-family: 'Varela Round', sans-serif;
+        line-height: 20%;
+    }
+    
+    .btn {
+        position: absolute;
+        right: 3px;
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s;
+        display: flex;
+        align-items: center;
+        /* transform: translate(-225px); */
+    }
+    
+    #limpiar {
+        position: absolute;
+        right: 25px;
+        
+        width: 20x;
+        height: 20px;
+        background: transparent;
+        border: none;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        display: none;
+        /* transform: translate(-225px); */
+    }
+
+    #limpiar i{
+        font-size: 12px;
+        color: rgb(122, 122, 122); 
+    }
+    .btn i {
+        font-size: 12px;
+        color: blue;
+    
+    }
+    
+    
+    .btn i:hover{
+        color: #0167AB;
+        transform: scale(1.3);
+    }
+    
+
+
+
+
+
+.contenedorModal{
+    background-color: #2521E9;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 3%;
+
+}
+
+#noExiste {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+}
+
+.modal-content {
+    border-radius: 3%;
+    background-color: #fefefe;
+    margin: 15% auto;
+    /* padding: 20px; */
+    
+    /* border: 1px solid #888; */
+    width: 60%;
+    object-fit: contain;
+}
+
+/* Botón para cerrar el modal */
+.close {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-color: rgba(69, 65, 255, 1);
+    /* float: right; */
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 body,
 html {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
-/* body {
-  background: radial-gradient(circle, rgb(10 60 202) 0%, #042e52 100%);
-} */
+.imagen_flotando{
+    width: 5dvb;
+    height: 5dvb;
+}
+
+
+#medicamentos{
+    position: relative;
+    overflow: hidden;
+}
+
+
+  
+.ocultarnutria{
+    display: none;
+}
+
+.nutria{
+    width: 13%;
+    height: auto;
+    position: absolute;
+    right: -30px;
+    bottom: 10%;
+    z-index: 999;
+}
+
+
+@keyframes rebote {
+    0%, 100% {
+      transform: translateX(30px);
+    }
+    40% {
+      transform: translateX(-110px); /* Altura del rebote */
+    }
+    60% {
+        transform: translateX(-110px); /* Altura del rebote */
+      }
+  }
 
 
 /*CONTENDEDOR DEL LABORATORIO*/
@@ -24,6 +297,13 @@ html {
     gap: 10px;
     flex-direction: column;
     margin-bottom: 3%;
+    position: relative;
+    overflow: hidden;
+}
+
+.medicamento{
+    border-radius: 5%;
+    overflow: hidden;
 }
 
     /*IMAGEN DEL LABORATORIO*/
@@ -43,14 +323,6 @@ html {
             justify-content: space-between;
             margin-top: 10px;
         }
-
-            /*ESPACIO DEL MEDICAMENTO*/
-           /*  .medicamento {
-                padding: 10px;
-                margin-left: 5px;
-                margin-right: 5px;
-                background-color: white; */
-                /* width: 47%; *//*ajusta la separacion entre productos*/
             
             @media (max-width: 400px) {
                 /* Estilos para pantallas con ancho máximo de 600px */
@@ -72,7 +344,7 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 208px;
                     width: 42%;
                     height: 110px;
@@ -116,7 +388,7 @@ html {
 
                 /*INFORMACION DEL PRODUCTO*/
                 .producto-info {
-                    border: 1px solid #ccc;
+                    
                     width: 50%;
                     height: auto;
                     position: absolute;
@@ -196,7 +468,11 @@ html {
                     height: 71%;
                     bottom: 5%;
                 }
- 
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    z-index: 10;
+                }
             }
 
             @media (min-width: 401px) and (max-width: 430px) {
@@ -1543,7 +1819,7 @@ html {
     width: 58%;
 
 
-/*     border: 1px solid #ccc; */
+    /* border: 1px solid #ccc; */
 
     position: absolute;
     border-radius: 5px;
@@ -1575,8 +1851,23 @@ html {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    display: block;
+    opacity: 1;
+    /* display: block; */
 }
+/* #contenedor_imagen_principal:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+}
+#contenedor_imagen:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+    z-index: 2; 
+}
+#imagen_producto:hover {
+    transform:scale(1.1);
+    transition: transform 0.2s ease;
+} */
+
 
 
 /*IMAGEN DEL LOGO DE BONED*/

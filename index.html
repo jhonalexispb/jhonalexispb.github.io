@@ -2,46 +2,390 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="styles.css">
     <title>Catálogo de Medicamentos</title>
     <style>
         
         header {
             width: 100%;
+            height: 100%;
+            object-fit: contain;
+            z-index: -1;
+            background-color: black;
+            
         }
 
         header img {
             width: 100%;
-            height: auto;
+            height: 100%;
+            object-fit: contain;
             margin: 0;
             padding: 0;
-            background-color: #f1f1f1;
-            background-size: cover;
-            display: inline-block;
-           
-            /* background-repeat: no-repeat; */
-            /* min-height: 50px;
-            height: 150vw; */
+            
+            /* background-size: cover; */
+            /* display: inline-block; */
+            z-index: -1;
+
         }
 
-        @media (max-width: 400px) {
-                /* Estilos para pantallas con ancho máximo de 600px */
-                header img {
-                    width: 100%;
-                    height: auto;
-                }
-            }
+
     </style>
+    
 </head>
-<body>
+<body id="cuerpo">
+
+    <div id="myModal" class="modal">
+        <!-- Contenido del modal -->
+        <div class="modal-content">
+            <div class="contenedorModal">
+                <p id="noExiste">No existe el producto</p>
+                <img style="border-radius: 5px; width: 70%;" src="imagenes/gif/nutria_gif.gif" alt="GIF">
+                <button class="close" onclick="cerrarModal()">Ok</button>
+            </div>
+            
+            
+        </div>
+    </div>
+
+
     <header>
         <img src="imagenes/portada.jpg" alt="Imagen del catálogo de medicamentos">
     </header>
+    <div id="buscador">
+        <div class="search-container">
+            <div id="barraBuscar">
+            <input type="text" id="searchInput" placeholder="Buscar..." autocomplete="off">
+            <button id="limpiar" onclick="limpiarInput()"><i class="fa fa-trash"></i></button>
+
+            <button class="btn" onclick="searchProducts()"><i class="fa fa-search"></i></button>
+            </div>
+
+            <button style="display: none;" id="anterior" onclick="anterior()"><i class="fa fa-arrow-left"></i></button>
+
+            <button style="display: none;" id="siguiente" onclick="siguiente()"><i class="fa fa-arrow-right"></i></button>
+
+            <h1 id="coincidencias"></h1>
+
+        </div>
+        <button style="display: none;" id="inicio">Ir a inicio</button>
+    </div>
+    
     <main id="medicamentos" class="catalogo">
-        <!-- Aquí se mostrarán los medicamentos -->
+        
     </main>
+    <!-- <div class="fondo">
+        <div></div>
+        <div></div>
+
+    </div> -->
     <script src="cat.js"></script>
+    <!-- <script src="imagenes.js"></script> -->
+    <script>
+    document.getElementById("searchInput").addEventListener("input", function() {
+        borrarTrash();
+    });
+    let contador; 
+    let buscador = 0;
+    let idnutria;
+    let idproducto;
+    
+
+    function searchProducts() {
+        
+        buscador = 0;
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const productos = document.querySelectorAll('.producto-nombre');  
+        let h1 = document.getElementById('coincidencias');
+        let siguiente_producto = document.getElementById('siguiente');
+        let anterior_producto = document.getElementById('anterior');
+        anterior_producto.style.display = 'none'; 
+
+        if(searchTerm!==""){
+
+            let limpiar = document.getElementById('limpiar');
+            limpiar.style.display='flex'; 
+            limpiar.style.alignItems='center';
+            
+        
+        let foundIndexes = [];
+
+        productos.forEach((producto, index) => {
+            
+            const textoProducto = producto.textContent.toLowerCase();
+            const contenedorProducto = producto.closest('.medicamento');
+            
+
+            if (textoProducto.includes(searchTerm)) {
+                foundIndexes.push(index);
+ 
+            } else {
+                contenedorProducto.style.border = ''; // Restaura el color original
+                contenedorProducto.style.zIndex = 5;
+                contenedorProducto.style.animation = '';
+                contenedorProducto.style.transition = '';
+                
+                let nutria = document.getElementById('nutria'+index);
+                nutria.classList.remove("nutria");
+                nutria.classList.add("ocultarnutria");
+            }
+            
+        });
+        
+
+        if (foundIndexes.length > 0) {
+            let siguiente_producto = document.getElementById('siguiente');
+            let anterior_producto = document.getElementById('anterior');
+            let inicio = document.getElementById('inicio');
+            
+            if(foundIndexes.length > 1){
+                
+                siguiente_producto.style.display = '';
+                h1.textContent ="1 de "+foundIndexes.length;
+            
+            }else{
+                siguiente_producto.style.display = 'none';
+                anterior_producto.style.display = 'none';
+                h1.textContent ="1 de "+foundIndexes.length; 
+            }
+
+            const firstIndex = foundIndexes[0];
+            idnutria = firstIndex;
+            const firstProducto = productos[firstIndex];
+            idproducto = firstProducto;
+            const contenedorFirstProducto = firstProducto.closest('.medicamento');
+            
+            let nutria = document.getElementById('nutria'+firstIndex);
+            
+            contenedorFirstProducto.style.border = '4px solid #27A8F0';
+            contenedorFirstProducto.style.zIndex = 5;
+            nutria.style.animation = 'rebote 3s';
+            nutria.style.transition = 'transform 0.1 ease';
+            nutria.classList.remove("ocultarnutria");
+            nutria.classList.add("nutria");
+
+            contenedorFirstProducto.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+
+            
+
+
+            if(foundIndexes[0]>7){
+                inicio.style.display = '';
+                inicio.setAttribute('onclick', 'desplazar()');
+            }
+        }else{
+            mostrarModal();
+        }
+        
+        contador = foundIndexes;
+        }else{
+            h1.textContent ="";
+            siguiente_producto.style.display = 'none';
+            let limpiar = document.getElementById('limpiar');
+            limpiar.style.display='none'; 
+            limpiar.style.alignItems=''; 
+        }
+
+        }
+
+        function mostrarModal() {
+        document.getElementById('myModal').style.display = 'block';
+    }
+
+        function cerrarModal() {
+        document.getElementById('myModal').style.display = 'none';
+    }
+
+
+    function siguiente(){
+        const productos = document.querySelectorAll('.producto-nombre');
+        let h1 = document.getElementById('coincidencias');
+        let anterior_producto = document.getElementById('anterior');
+        let firstIndex, anteriorIndex;
+
+
+        if(buscador<[contador.length]-1){
+            buscador++;
+            firstIndex = contador[buscador];
+            idnutria = firstIndex;
+            anteriorIndex = contador[buscador-1];
+        
+        }else{
+            buscador = 0;
+            firstIndex = contador[buscador];
+            anteriorIndex = contador[contador.length-1];
+        }
+
+        if(buscador===0){
+            anterior_producto.style.display = 'none';
+        }else{
+            anterior_producto.style.display = '';
+        }
+
+        
+
+        h1.textContent =buscador+1+ " de "+contador.length;
+        const firstProducto = productos[firstIndex];
+        idproducto = firstProducto;
+
+        let prodAnterior = productos[anteriorIndex];
+        
+        const contenedorAnteriorProducto = prodAnterior.closest('.medicamento');
+            
+            let anteriornutria = document.getElementById('nutria'+anteriorIndex);
+                anteriornutria.classList.remove("nutria");
+                anteriornutria.classList.add("ocultarnutria");
+                contenedorAnteriorProducto.style.border = 'none';
+                contenedorAnteriorProducto.style.zIndex = 5;
+
+        const contenedorFirstProducto = firstProducto.closest('.medicamento');
+
+            contenedorFirstProducto.style.border = '4px solid #27A8F0';
+            contenedorFirstProducto.style.zIndex = 5;
+            
+            let nutria = document.getElementById('nutria'+firstIndex);
+                nutria.classList.remove("ocultarnutria");
+                nutria.classList.add("nutria");
+                nutria.style.animation = 'rebote 3s';
+            nutria.style.transition = 'transform 0.1 ease';
+
+        contenedorFirstProducto.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function anterior(){
+        const productos = document.querySelectorAll('.producto-nombre');
+        let h1 = document.getElementById('coincidencias');
+        let anterior_producto = document.getElementById('anterior');
+        let firstIndex, anteriorIndex;
+
+
+        if(buscador<=[contador.length]-1){
+            buscador--;
+            if(buscador===0){
+            anterior_producto.style.display = 'none';
+            }
+            firstIndex = contador[buscador];
+            idnutria = firstIndex;
+            anteriorIndex = contador[buscador+1];
+        
+        }else{
+            buscador = 0;
+            firstIndex = contador[buscador];
+            idnutria = firstIndex;
+            anteriorIndex = contador[0];
+        }
+        
+        h1.textContent =buscador+1+ " de "+contador.length;
+        const firstProducto = productos[firstIndex];
+        idproducto = firstProducto;
+
+        let prodAnterior = productos[anteriorIndex];
+        
+        const contenedorAnteriorProducto = prodAnterior.closest('.medicamento');
+            
+            let anteriornutria = document.getElementById('nutria'+anteriorIndex);
+            anteriornutria.classList.remove("nutria");
+            anteriornutria.classList.add("ocultarnutria");
+            contenedorAnteriorProducto.style.border = 'none';
+            contenedorAnteriorProducto.style.zIndex = 5;
+            
+
+        const contenedorFirstProducto = firstProducto.closest('.medicamento');
+            contenedorFirstProducto.style.border = '4px solid #27A8F0';
+            contenedorFirstProducto.style.zIndex = 5;
+            
+            let nutria = document.getElementById('nutria'+firstIndex);
+            nutria.classList.remove("ocultarnutria");
+                nutria.classList.add("nutria");
+                nutria.style.animation = 'rebote 3s';
+                
+            nutria.style.transition = 'transform 0.1 ease';
+        contenedorFirstProducto.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    function desplazar(){
+        let anterior_producto = document.getElementById('anterior');
+        let siguiente_producto = document.getElementById('siguiente');
+        let inicio = document.getElementById('inicio');
+        let h1 = document.getElementById('coincidencias');
+        const productos = document.querySelectorAll('.producto-nombre');  
+        const firstProducto = productos[0];
+        const contenedorFirstProducto = firstProducto.closest('.medicamento');
+        contenedorFirstProducto.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        inicio.style.display = 'none';
+        h1.textContent = '';
+        siguiente_producto.style.display = 'none';
+        anterior_producto.style.display = 'none';
+        buscador = 0;
+
+        let nutria = document.getElementById('nutria'+idnutria);
+        nutria.classList.remove("nutria");
+        nutria.classList.add("ocultarnutria");
+        const contFirstProducto = idproducto.closest('.medicamento');
+            
+            contFirstProducto.style.border = 'none';
+            contFirstProducto.style.zIndex = 5;
+    }
+
+    function limpiarInput(){
+        
+        let nutria = document.getElementById('nutria'+idnutria);
+        let anterior_producto = document.getElementById('anterior');
+        let siguiente_producto = document.getElementById('siguiente');
+        let searchInput = document.getElementById('searchInput');
+        let h1 = document.getElementById('coincidencias');
+        let limpiar = document.getElementById('limpiar');
+        limpiar.style.display='none'; 
+        limpiar.style.alignItems='';
+        searchInput.value = '';
+        h1.textContent = '';
+        siguiente_producto.style.display = 'none';
+        anterior_producto.style.display = 'none';
+        buscador = 0;
+        nutria.classList.remove("nutria");
+        nutria.classList.add("ocultarnutria");
+        const contenedorFirstProducto = idproducto.closest('.medicamento');
+            
+            contenedorFirstProducto.style.border = 'none';
+            contenedorFirstProducto.style.zIndex = 5;
+        
+
+    }
+
+    function borrarTrash(){
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        if(searchTerm===""){
+        let anterior_producto = document.getElementById('anterior');
+        let siguiente_producto = document.getElementById('siguiente');
+
+        siguiente_producto.style.display = 'none';
+        anterior_producto.style.display = 'none';
+        let h1 = document.getElementById('coincidencias');
+        let limpiar = document.getElementById('limpiar');
+        limpiar.style.display='none'; 
+        limpiar.style.alignItems='';
+
+        h1.textContent = '';
+
+        let nutria = document.getElementById('nutria'+idnutria);
+        if(document.getElementById('nutria'+idnutria)){
+        nutria.classList.remove("nutria");
+        nutria.classList.add("ocultarnutria");
+        }
+        const contenedorFirstProducto = idproducto.closest('.medicamento');
+            
+            contenedorFirstProducto.style.border = 'none';
+            contenedorFirstProducto.style.zIndex = 5;
+        }else{
+        let limpiar = document.getElementById('limpiar');
+        limpiar.style.display='flex'; 
+        limpiar.style.alignItems='center';    
+        }
+    }
+    </script>
 </body>
 </html>
