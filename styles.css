@@ -288,7 +288,15 @@ html {
       }
   }
 
-
+  @keyframes flotar {
+    0%, 100% {
+      transform: translateX(30px);
+    }
+    50% {
+      transform: translate(-600px,-400px); /* Altura del rebote */
+    }
+    
+  }
 /*CONTENDEDOR DEL LABORATORIO*/
 .laboratory-container {
     width: 100%;
@@ -304,6 +312,7 @@ html {
 .medicamento{
     border-radius: 5%;
     overflow: hidden;
+    background-color: transparent;
 }
 
     /*IMAGEN DEL LABORATORIO*/
@@ -471,6 +480,7 @@ html {
                 .medicamento:hover {
                     transform:scale(1.1);
                     transition: transform 0.2s ease;
+                    background-color: white;
                     z-index: 10;
                 }
             }
@@ -613,10 +623,17 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 208px;
                     width: 42%;
                     height: 115px;
+                }
+
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
                 }
 
                 #contenerdor_imagen_principal{
@@ -763,11 +780,18 @@ html {
                    padding: 10px;
                    margin-left: 5px;
                    margin-right: 5px;
-                   background-color: white;
+                   background-color: transparent;
                    width: 208px;
                    width: 42%;
                    height: 125px;
                }
+
+               .medicamento:hover {
+                transform:scale(1.1);
+                transition: transform 0.2s ease;
+                background-color: white;
+                z-index: 10;
+            }
 
                #contenerdor_imagen_principal{
                    
@@ -914,11 +938,18 @@ html {
                    padding: 10px;
                    margin-left: 5px;
                    margin-right: 5px;
-                   background-color: white;
+                   background-color: transparent;
                    width: 208px;
                    width: 42%;
                    height: 140px;
                }
+
+               .medicamento:hover {
+                transform:scale(1.1);
+                transition: transform 0.2s ease;
+                background-color: white;
+                z-index: 10;
+            }
 
                #contenerdor_imagen_principal{
                    
@@ -1062,10 +1093,17 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 350px;
                     width: 46%;
                     height: 145px;
+                }
+
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
                 }
 
                 #contenerdor_imagen_principal{
@@ -1092,13 +1130,18 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 350px;
                     width: 46%;
                     height: 225px;
                 }
                 
-                
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
+                }
                 /*PRECIO*/
                 .precio{
                     position: absolute;
@@ -1239,13 +1282,18 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 350px;
                     width: 46%;
                     height: 246px;
                 }
                 
-                
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
+                }
                 /*PRECIO*/
                 .precio{
                     position: absolute;
@@ -1509,12 +1557,17 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 350px;
                     width: 47.5%;
                     height: 270px;
                 }
- 
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
+                }
             }
 
             @media (min-width: 901px) and (max-width: 1024px){
@@ -1658,12 +1711,17 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 350px;
                     width: 47.5%;
                     height: 315px;
                 }
-
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
+                }
             }
 
             @media (min-width: 1025px){
@@ -1807,12 +1865,17 @@ html {
                     padding: 10px;
                     margin-left: 5px;
                     margin-right: 5px;
-                    background-color: white;
+                    background-color: transparent;
                     width: 350px;
                     width: 47.5%;
                     height: 440px;
                 }
-
+                .medicamento:hover {
+                    transform:scale(1.1);
+                    transition: transform 0.2s ease;
+                    background-color: white;
+                    z-index: 10;
+                }
             }
 
 #contenerdor_imagen_principal{

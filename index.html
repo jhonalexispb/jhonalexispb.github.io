@@ -88,16 +88,17 @@
     document.getElementById("searchInput").addEventListener("input", function() {
         borrarTrash();
     });
+    document.getElementById("searchInput").addEventListener("keypress", function(event) {
+        if (event.key === "Enter") {
+            searchProducts();
+        }
+        });
     let contador; 
     let buscador = 0;
     let idnutria;
     let idproducto;
     
-    document.getElementById("searchInput").addEventListener("keypress", function(event) {
-    if (event.key === "Enter") {
-        searchProducts();
-        }
-    });
+
     function searchProducts() {
         
         buscador = 0;
@@ -183,6 +184,13 @@
             }
         }else{
             mostrarModal();
+            let siguiente_producto = document.getElementById('siguiente');
+            let anterior_producto = document.getElementById('anterior');
+            let h1 = document.getElementById('coincidencias');
+
+            siguiente_producto.style.display='none';
+            anterior_producto.style.display='none';
+            h1.textContent='';
         }
         
         contador = foundIndexes;
